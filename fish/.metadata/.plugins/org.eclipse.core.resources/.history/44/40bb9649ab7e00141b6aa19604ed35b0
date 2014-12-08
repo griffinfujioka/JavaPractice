@@ -14,7 +14,8 @@ class User {
     String passwordHashed
  
  
-    
+    // transients
+    static transients = ['password', 'confirm']
  
     // constraints
     static constraints = {
