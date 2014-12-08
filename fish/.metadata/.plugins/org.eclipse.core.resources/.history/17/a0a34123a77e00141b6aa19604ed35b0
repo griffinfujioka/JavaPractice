@@ -1,0 +1,7 @@
+package fish
+
+class User {
+
+    static constraints = {
+    }
+}

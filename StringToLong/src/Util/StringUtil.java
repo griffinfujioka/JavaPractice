@@ -3,7 +3,11 @@ package Util;
 public class StringUtil {
 
 	public static long stringToLong(String str) { 
+		if(str == null || str.isEmpty())
+			throw new NumberFormatException("Invalid input"); 
+		
 		boolean isNegative = str.charAt(0) == '-'; 
+		str = str.replace("-", ""); 
 		int i = 0; 
 		long value = 0l; 
 		while(i < str.length()) { 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fish/grails-app/views/user/registration.gsp&apos; to &apos;register.gsp&apos;" description="Rename resource &apos;registration.gsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="grails-app/views/user/registration.gsp" name="register.gsp" stamp="1418021989952" updateReferences="true"/>
+</session>

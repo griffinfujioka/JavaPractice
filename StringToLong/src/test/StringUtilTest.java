@@ -14,28 +14,20 @@ public class StringUtilTest {
 		assertTrue(1234l == StringUtil.stringToLong(str)); 
 	}
 	
-	@Test
+	@Test(expected = NumberFormatException.class)
 	public void testStringToLongWithNullParameter() { 
-		
+		StringUtil.stringToLong(null); 
 	}
 	
 	@Test
 	public void testStringToLongForNegative() { 
-		
+		String str = "-1234"; 
+		assertTrue(-1234l == StringUtil.stringToLong(str)); 
 	}
 	
-	@Test
-	public void testStringToLongForDecimal() { 
-		
-	}
-	
-	@Test
-	public void testStringToLongTooManyDecimals() { 
-		
-	}
-	
-	@Test
+	@Test(expected = NumberFormatException.class)
 	public void testStringToLongNumberConversionException() { 
-		
+		String str = "garbage"; 
+		StringUtil.stringToLong(str); 
 	}
 }

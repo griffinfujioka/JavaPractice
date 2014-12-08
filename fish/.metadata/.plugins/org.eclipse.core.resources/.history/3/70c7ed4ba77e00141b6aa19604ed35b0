@@ -1,0 +1,6 @@
+package fish
+
+class UserController {
+
+    def index() { }
+}
