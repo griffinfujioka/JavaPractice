@@ -1,0 +1,6 @@
+package fish
+
+class WebsiteController {
+
+    def index() { }
+}

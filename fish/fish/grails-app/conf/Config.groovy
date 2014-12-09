@@ -115,3 +115,11 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+// facebook plugin
+grails.plugin.facebooksdk.app.id = 313445308852595
+grails.plugin.facebooksdk.app.permissions = ['email', 'user_likes']
+grails.plugin.facebooksdk.app.secret = '58afdb6a3edcd066d5feca923e2c740c'
+grails.plugin.facebooksdk.apiVersion = 'v1.0'
+grails.controllers.defaultScope = 'prototype'
+grails.plugin.facebooksdk.customSelector = 'jQuery'

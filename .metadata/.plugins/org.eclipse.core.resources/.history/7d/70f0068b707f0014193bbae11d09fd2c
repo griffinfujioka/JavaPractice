@@ -1,0 +1,6 @@
+package fish
+
+class AppController {
+
+    def index() { }
+}
