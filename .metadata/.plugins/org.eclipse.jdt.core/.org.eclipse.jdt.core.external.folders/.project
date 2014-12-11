@@ -10,34 +10,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.link0</name>
-			<type>2</type>
-			<location>/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/fish/target/work/plugin-classes</location>
-		</link>
-		<link>
-			<name>.link10</name>
-			<type>2</type>
-			<location>/Users/griffin/.grails/2.4.4/projects/facebook-sdk-demo/plugin-classes</location>
-		</link>
-		<link>
-			<name>.link11</name>
-			<type>2</type>
-			<location>/Users/griffin/.groovy/greclipse/global_dsld_support</location>
-		</link>
-		<link>
-			<name>.link12</name>
-			<type>2</type>
-			<location>/Users/griffin/Downloads/ggts-bundle/ggts-3.6.3.RELEASE/plugins/org.codehaus.groovy_2.3.7.xx-201411241807-e44/plugin_dsld_support</location>
-		</link>
-		<link>
-			<name>.link5</name>
+			<name>.link3</name>
 			<type>2</type>
 			<location>/Users/griffin/Downloads/ggts-bundle/ggts-3.6.3.RELEASE/plugins/org.grails.ide.eclipse.resources_3.6.3.201411271013-RELEASE/dsl-support</location>
 		</link>
 		<link>
-			<name>.link6</name>
+			<name>.link4</name>
 			<type>2</type>
 			<location>/Users/griffin/Downloads/ggts-bundle/grails-2.4.4/scripts</location>
+		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/fish/target/work/plugin-classes</location>
 		</link>
 	</linkedResources>
 </projectDescription>
