@@ -99,15 +99,16 @@ environments {
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.fish.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.fish.UserRole'
 grails.plugin.springsecurity.authority.className = 'com.fish.Role'
-//grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-//	'/':                              ['permitAll'],
+grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+	'/':                              ['permitAll'],
+	'/**':                              ['permitAll'],
 //	'/index':                         ['permitAll'],
 //	'/index.gsp':                     ['permitAll'],
 //	'/**/js/**':                      ['permitAll'],
 //	'/**/css/**':                     ['permitAll'],
 //	'/**/images/**':                  ['permitAll'],
 //	'/**/favicon.ico':                ['permitAll']
-//]
+]
 
 
 // log4j configuration
