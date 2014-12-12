@@ -14,42 +14,54 @@ registerSitemeshPreprocessMode()
 printHtmlPart(0)
 createTagBody(1, {->
 printHtmlPart(1)
-invokeTag('captureMeta','sitemesh',4,['gsp_sm_xmlClosingForEmptyTag':(""),'charset':("utf-8")],-1)
-printHtmlPart(1)
-invokeTag('captureMeta','sitemesh',5,['gsp_sm_xmlClosingForEmptyTag':(""),'http-equiv':("X-UA-Compatible"),'content':("IE=edge")],-1)
-printHtmlPart(1)
-invokeTag('captureMeta','sitemesh',6,['gsp_sm_xmlClosingForEmptyTag':(""),'name':("viewport"),'content':("width=device-width, initial-scale=1")],-1)
+invokeTag('captureMeta','sitemesh',7,['gsp_sm_xmlClosingForEmptyTag':(""),'charset':("utf-8")],-1)
+printHtmlPart(2)
+invokeTag('captureMeta','sitemesh',8,['gsp_sm_xmlClosingForEmptyTag':(""),'http-equiv':("X-UA-Compatible"),'content':("IE=edge")],-1)
+printHtmlPart(2)
+invokeTag('captureMeta','sitemesh',9,['gsp_sm_xmlClosingForEmptyTag':(""),'name':("viewport"),'content':("width=device-width, initial-scale=1")],-1)
+printHtmlPart(2)
+invokeTag('captureMeta','sitemesh',10,['gsp_sm_xmlClosingForEmptyTag':(""),'name':("description"),'content':("")],-1)
+printHtmlPart(2)
+invokeTag('captureMeta','sitemesh',11,['gsp_sm_xmlClosingForEmptyTag':(""),'name':("author"),'content':("")],-1)
 printHtmlPart(1)
 createTagBody(2, {->
-createClosureForHtmlPart(2, 3)
-invokeTag('captureTitle','sitemesh',7,[:],3)
+createClosureForHtmlPart(3, 3)
+invokeTag('captureTitle','sitemesh',13,[:],3)
 })
-invokeTag('wrapTitleTag','sitemesh',7,[:],2)
-printHtmlPart(3)
-})
-invokeTag('captureHead','sitemesh',18,[:],1)
+invokeTag('wrapTitleTag','sitemesh',13,[:],2)
 printHtmlPart(4)
-createTagBody(1, {->
-printHtmlPart(5)
-for( c in (grailsApplication.controllerClasses.sort { it.fullName }) ) {
-printHtmlPart(6)
-createTagBody(3, {->
-expressionOut.print(c.fullName)
 })
-invokeTag('link','g',25,['controller':(c.logicalPropertyName)],3)
+invokeTag('captureHead','sitemesh',35,[:],1)
+printHtmlPart(5)
+createTagBody(1, {->
+printHtmlPart(6)
+createTagBody(2, {->
 printHtmlPart(7)
-}
+invokeTag('connect','facebookAuth',83,[:],-1)
 printHtmlPart(8)
 })
-invokeTag('captureBody','sitemesh',34,[:],1)
+invokeTag('ifNotGranted','sec',84,['roles':("ROLE_USER")],2)
+printHtmlPart(8)
+createTagBody(2, {->
 printHtmlPart(9)
+invokeTag('username','sec',86,[:],-1)
+printHtmlPart(10)
+createClosureForHtmlPart(11, 3)
+invokeTag('link','g',86,['uri':("/j_spring_security_logout")],3)
+printHtmlPart(12)
+})
+invokeTag('ifAllGranted','sec',87,['roles':("ROLE_USER")],2)
+printHtmlPart(13)
+})
+invokeTag('captureBody','sitemesh',488,['id':("page-top"),'class':("index")],1)
+printHtmlPart(14)
 }
 public static final Map JSP_TAGS = new HashMap()
 protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1418365093000L
+public static final long LAST_MODIFIED = 1418368754000L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'
