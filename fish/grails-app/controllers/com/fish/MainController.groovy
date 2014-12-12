@@ -6,6 +6,6 @@ class MainController {
 	
 	@Secured(['ROLE_ADMIN'])
    def index() {
-      render 'Secure access only'
+      render 'Welcome to Fish'
    }
 }

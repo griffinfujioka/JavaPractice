@@ -99,15 +99,15 @@ environments {
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.fish.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.fish.UserRole'
 grails.plugin.springsecurity.authority.className = 'com.fish.Role'
-grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-	'/':                              ['permitAll'],
-	'/index':                         ['permitAll'],
-	'/index.gsp':                     ['permitAll'],
-	'/**/js/**':                      ['permitAll'],
-	'/**/css/**':                     ['permitAll'],
-	'/**/images/**':                  ['permitAll'],
-	'/**/favicon.ico':                ['permitAll']
-]
+//grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+//	'/':                              ['permitAll'],
+//	'/index':                         ['permitAll'],
+//	'/index.gsp':                     ['permitAll'],
+//	'/**/js/**':                      ['permitAll'],
+//	'/**/css/**':                     ['permitAll'],
+//	'/**/images/**':                  ['permitAll'],
+//	'/**/favicon.ico':                ['permitAll']
+//]
 
 
 // log4j configuration
@@ -131,3 +131,8 @@ log4j.main = {
            'net.sf.ehcache.hibernate'
 }
 
+
+
+grails.plugin.springsecurity.facebook.domain.classname='FacebookUser'
+grails.plugin.springsecurity.facebook.appId='313445308852595'
+grails.plugin.springsecurity.facebook.secret='58afdb6a3edcd066d5feca923e2c740c'
