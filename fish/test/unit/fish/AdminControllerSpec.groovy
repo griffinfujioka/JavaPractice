@@ -1,5 +1,7 @@
 package fish
 
+import com.fish.AdminController;
+
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 

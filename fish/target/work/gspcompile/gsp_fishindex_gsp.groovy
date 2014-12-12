@@ -14,66 +14,42 @@ registerSitemeshPreprocessMode()
 printHtmlPart(0)
 createTagBody(1, {->
 printHtmlPart(1)
-invokeTag('captureMeta','sitemesh',4,['gsp_sm_xmlClosingForEmptyTag':("/"),'name':("layout"),'content':("main")],-1)
+invokeTag('captureMeta','sitemesh',4,['gsp_sm_xmlClosingForEmptyTag':(""),'charset':("utf-8")],-1)
+printHtmlPart(1)
+invokeTag('captureMeta','sitemesh',5,['gsp_sm_xmlClosingForEmptyTag':(""),'http-equiv':("X-UA-Compatible"),'content':("IE=edge")],-1)
+printHtmlPart(1)
+invokeTag('captureMeta','sitemesh',6,['gsp_sm_xmlClosingForEmptyTag':(""),'name':("viewport"),'content':("width=device-width, initial-scale=1")],-1)
 printHtmlPart(1)
 createTagBody(2, {->
 createClosureForHtmlPart(2, 3)
-invokeTag('captureTitle','sitemesh',5,[:],3)
+invokeTag('captureTitle','sitemesh',7,[:],3)
 })
-invokeTag('wrapTitleTag','sitemesh',5,[:],2)
+invokeTag('wrapTitleTag','sitemesh',7,[:],2)
 printHtmlPart(3)
 })
-invokeTag('captureHead','sitemesh',82,[:],1)
+invokeTag('captureHead','sitemesh',18,[:],1)
 printHtmlPart(4)
 createTagBody(1, {->
 printHtmlPart(5)
-invokeTag('message','g',84,['code':("default.link.skip.label"),'default':("Skip to content&hellip;")],-1)
-printHtmlPart(6)
-invokeTag('meta','g',88,['name':("app.version")],-1)
-printHtmlPart(7)
-invokeTag('meta','g',89,['name':("app.grails.version")],-1)
-printHtmlPart(8)
-expressionOut.print(GroovySystem.getVersion())
-printHtmlPart(9)
-expressionOut.print(System.getProperty('java.version'))
-printHtmlPart(10)
-expressionOut.print(grails.util.Environment.reloadingAgentEnabled)
-printHtmlPart(11)
-expressionOut.print(grailsApplication.controllerClasses.size())
-printHtmlPart(12)
-expressionOut.print(grailsApplication.domainClasses.size())
-printHtmlPart(13)
-expressionOut.print(grailsApplication.serviceClasses.size())
-printHtmlPart(14)
-expressionOut.print(grailsApplication.tagLibClasses.size())
-printHtmlPart(15)
-for( plugin in (applicationContext.getBean('pluginManager').allPlugins) ) {
-printHtmlPart(16)
-expressionOut.print(plugin.name)
-printHtmlPart(17)
-expressionOut.print(plugin.version)
-printHtmlPart(18)
-}
-printHtmlPart(19)
 for( c in (grailsApplication.controllerClasses.sort { it.fullName }) ) {
-printHtmlPart(20)
+printHtmlPart(6)
 createTagBody(3, {->
 expressionOut.print(c.fullName)
 })
-invokeTag('link','g',116,['controller':(c.logicalPropertyName)],3)
-printHtmlPart(21)
+invokeTag('link','g',25,['controller':(c.logicalPropertyName)],3)
+printHtmlPart(7)
 }
-printHtmlPart(22)
+printHtmlPart(8)
 })
-invokeTag('captureBody','sitemesh',121,[:],1)
-printHtmlPart(23)
+invokeTag('captureBody','sitemesh',34,[:],1)
+printHtmlPart(9)
 }
 public static final Map JSP_TAGS = new HashMap()
 protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1406746854000L
+public static final long LAST_MODIFIED = 1418365093000L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'
