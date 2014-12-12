@@ -99,6 +99,7 @@ environments {
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.fish.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.fish.UserRole'
 grails.plugin.springsecurity.authority.className = 'com.fish.Role'
+grails.plugin.springsecurity.facebook.domain.classname = 'com.fish.FacebookUser'
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/':                              ['permitAll'],
 	'/**':                              ['permitAll'],
