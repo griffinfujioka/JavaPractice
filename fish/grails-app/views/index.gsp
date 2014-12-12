@@ -138,7 +138,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h2 class="section-heading">Founders</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/brad.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/hatch.jpg" class="img-responsive img-circle" alt="">
                         <h4>Hatch Miller</h4>
                         <p class="text-muted">Founder, Designer</p>
                         <ul class="list-inline social-buttons">

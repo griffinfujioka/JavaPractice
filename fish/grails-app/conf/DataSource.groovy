@@ -31,8 +31,12 @@ environments {
     }
     production {
         dataSource {
+			pooled = true
             dbCreate = "update"
-            url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
+			driverClassName = "com.mysql.jdbc.Driver"
+			username = "griffinfujioka"
+			password = "Fujioka32"
+            url = "jdbc:mysql://aaevybz8063dzk.cqot1wikgmd5.us-east-1.rds.amazonaws.com:3306/ebdb"
             properties {
                // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
                jmxEnabled = true
