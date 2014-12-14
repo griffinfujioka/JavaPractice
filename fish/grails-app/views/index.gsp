@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/hatch.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/hatch.png" class="img-responsive img-circle" alt="">
                         <h4>Hatch Miller</h4>
                         <p class="text-muted">Founder, Designer</p>
                         <ul class="list-inline social-buttons">

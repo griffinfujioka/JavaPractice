@@ -1,0 +1,10 @@
+package com.fish
+
+import grails.plugin.springsecurity.annotation.Secured
+
+class MainController {
+	
+   def index() {
+      render 'Welcome to Fish'
+   }
+}

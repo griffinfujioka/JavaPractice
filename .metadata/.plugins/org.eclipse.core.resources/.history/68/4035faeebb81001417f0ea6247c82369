@@ -1,0 +1,11 @@
+package fish
+
+import grails.transaction.Transactional
+
+@Transactional
+class FacebookAuthService {
+
+    def serviceMethod() {
+
+    }
+}

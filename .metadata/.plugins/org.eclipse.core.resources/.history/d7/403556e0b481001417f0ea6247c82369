@@ -1,0 +1,6 @@
+package fish
+
+class FacebookController {
+
+    def index() { }
+}

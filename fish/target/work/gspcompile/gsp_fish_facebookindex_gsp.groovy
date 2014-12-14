@@ -41,19 +41,46 @@ printHtmlPart(9)
 createClosureForHtmlPart(10, 3)
 invokeTag('link','g',89,['uri':("/j_spring_security_logout")],3)
 printHtmlPart(11)
-})
-invokeTag('ifAllGranted','sec',90,['roles':("ROLE_USER")],2)
+invokeTag('set','g',90,['var':("photo"),'value':(sec.loggedInUserInfo([field:'photo']))],-1)
 printHtmlPart(12)
-})
-invokeTag('captureBody','sitemesh',92,[:],1)
+invokeTag('set','g',91,['var':("userId"),'value':(sec.loggedInUserInfo([field:'id']))],-1)
 printHtmlPart(13)
+if(true && (photo != null  && !(photo.empty))) {
+printHtmlPart(14)
+createTagBody(4, {->
+printHtmlPart(15)
+expressionOut.print(createLink(controller:'image', action:'profilePhoto', id:photo, params:[maxWidth:190.0,maxHeight:190.0]))
+printHtmlPart(16)
+expressionOut.print(photo)
+printHtmlPart(17)
+})
+invokeTag('link','g',96,['controller':("userAccount"),'action':("myInfo"),'id':(userId)],4)
+printHtmlPart(12)
+}
+else {
+printHtmlPart(14)
+createTagBody(4, {->
+printHtmlPart(15)
+expressionOut.print(resource(dir:'images', file:'no_image_blue.gif'))
+printHtmlPart(18)
+})
+invokeTag('link','g',101,['controller':("userAccount"),'action':("myInfo"),'id':(id)],4)
+printHtmlPart(19)
+}
+printHtmlPart(7)
+})
+invokeTag('ifAllGranted','sec',103,['roles':("ROLE_USER")],2)
+printHtmlPart(20)
+})
+invokeTag('captureBody','sitemesh',105,[:],1)
+printHtmlPart(21)
 }
 public static final Map JSP_TAGS = new HashMap()
 protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1418357273000L
+public static final long LAST_MODIFIED = 1418373825000L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'
