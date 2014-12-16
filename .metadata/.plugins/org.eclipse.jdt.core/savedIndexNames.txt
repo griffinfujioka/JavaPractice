@@ -1,6 +1,4 @@
 INDEX VERSION 1.126+/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.jdt.core
+3313556907.index
 3038203477.index
-1270315800.index
-1154770144.index
-3773479652.index
 673419028.index

@@ -122,7 +122,7 @@
 		<item value="true" key="ShowStatusLine"/>
 		<item value="false" key="ShowDerived"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/fish/grails-app/conf/UrlMappings.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/grails-app/controllers/com/fish/MainController.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/grails-app/conf/BuildConfig.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/grails-app/conf/BootStrap.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/grails-app/conf/Config.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/grails-app/assets/images/favicon.ico&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/web-app/css/agency.css&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/.link_to_grails_plugins/twitter-bootstrap-3.3.1/web-app/css/bootstrap.min.css&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/fish/grails-app/conf/DataSource.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/HelloFacebookSample/AndroidManifest.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="76" key="DIALOG_Y_ORIGIN"/>
@@ -130,6 +130,17 @@
 			<item value="420" key="DIALOG_X_ORIGIN"/>
 			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		</section>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/facebook"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
 	</section>
 	<section name="NewWizardAction">
 		<item value="com.android.ide.eclipse.adt.project.NewProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
