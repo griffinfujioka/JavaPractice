@@ -218,6 +218,7 @@ int string pick_seattle_place 0x7f06002a
 int string status_update 0x7f060025
 int string success 0x7f060022
 int string successfully_posted_post 0x7f060023
+int string title_facebook_login 0x7f06002d
 int string you_picked 0x7f060027
 int style com_facebook_loginview_default_style 0x7f070000
 int style com_facebook_loginview_silver_style 0x7f070001

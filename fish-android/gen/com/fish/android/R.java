@@ -411,6 +411,7 @@ containing a value of this type.
         public static final int status_update=0x7f060025;
         public static final int success=0x7f060022;
         public static final int successfully_posted_post=0x7f060023;
+        public static final int title_facebook_login=0x7f06002d;
         public static final int you_picked=0x7f060027;
     }
     public static final class style {
