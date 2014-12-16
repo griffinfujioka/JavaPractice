@@ -1,5 +1,8 @@
 package com.fish
 
+import grails.rest.Resource; 
+
+@Resource(uri='/users', formats=['json'])
 class User {
 
 	transient springSecurityService

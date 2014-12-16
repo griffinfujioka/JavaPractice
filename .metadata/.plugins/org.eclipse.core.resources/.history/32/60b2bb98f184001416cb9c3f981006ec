@@ -1,0 +1,11 @@
+package com.fish
+
+import grails.rest.Resource
+
+class ApiController {
+
+    def index() { }
+	
+	@Resource(uri='/users')
+	def users() { }
+}

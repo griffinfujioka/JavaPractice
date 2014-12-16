@@ -10,19 +10,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.link3</name>
-			<type>2</type>
-			<location>/Users/griffin/Downloads/ggts-bundle/ggts-3.6.3.RELEASE/plugins/org.grails.ide.eclipse.resources_3.6.3.201411271013-RELEASE/dsl-support</location>
-		</link>
-		<link>
-			<name>.link4</name>
+			<name>.link0</name>
 			<type>2</type>
 			<location>/Users/griffin/Downloads/ggts-bundle/grails-2.4.4/scripts</location>
 		</link>
 		<link>
-			<name>.link5</name>
+			<name>.link1</name>
 			<type>2</type>
 			<location>/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/fish/target/work/plugin-classes</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>/Users/griffin/Downloads/ggts-bundle/ggts-3.6.3.RELEASE/plugins/org.grails.ide.eclipse.resources_3.6.3.201411271013-RELEASE/dsl-support</location>
 		</link>
 	</linkedResources>
 </projectDescription>

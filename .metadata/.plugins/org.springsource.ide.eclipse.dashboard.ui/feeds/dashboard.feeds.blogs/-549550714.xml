@@ -5,7 +5,18 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2014-12-12T11:14:33Z</updated>
+  <updated>2014-12-15T16:21:00Z</updated>
+  <entry>
+    <title>Spring Integration, Spring AMQP Maintenance Releases Available</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/12/15/spring-integration-spring-amqp-maintenance-releases-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Gary Russell</name>
+    </author>
+    <id>tag:spring.io,2014-12-15:1890</id>
+    <updated>2014-12-15T16:21:00Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce the availability of Spring Integration 4.1.1, 4.0.6, and Spring AMQP 1.4.1. In general, these are minor releases with a small number of bug fixes, but Spring Integration 4.1.1 adds support for decoding RFC 5424 syslog messages and Spring AMQP 1.4.1 adds support for the new &lt;a href="http://docs.spring.io/spring-amqp/docs/current/reference/html/amqp.html#direct-reply-to"&gt;Direct reply-to&lt;/a&gt; feature in RabbitMQ 3.4.&lt;/p&gt;&lt;p&gt;Spring Integration Java DSL 1.0.1, with a &lt;a href="https://github.com/spring-projects/spring-integration-java-dsl/issues/9"&gt;correction with the recipient list router&lt;/a&gt; is also available now.&lt;/p&gt;&lt;p&gt;For complete details of the release contents, see the corresponding release notes.&lt;/p&gt;&lt;p&gt;&lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10121&amp;version=14822"&gt;Spring Integration 4.1.1. Release Notes&lt;/a&gt;&lt;br/&gt;&lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10121&amp;version=14821"&gt;Spring Integration 4.0.6. Release Notes&lt;/a&gt;&lt;br/&gt;&lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10450&amp;version=14824"&gt;Spring AMQP 1.4.1. Release Notes&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See the &lt;a href="http://projects.spring.io/spring-integration/"&gt;Spring Integration&lt;/a&gt; and &lt;a href="http://projects.spring.io/spring-amqp/"&gt;Spring AMQP&lt;/a&gt; project pages for more information.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring IO Platform 1.1.0.RC1 released</title>
     <link rel="alternate" href="https://spring.io/blog/2014/12/12/spring-io-platform-1-1-0-rc1-released" />
@@ -861,23 +872,6 @@ The Spring Tool Suite (STS) 3.6.3 and the Groovy/Grails Tool Suite (GGTS) 3.6.3.
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Webinar: Building Scalable Data Applications with Spring and GemFire</title>
-    <link rel="alternate" href="https://spring.io/blog/2014/12/02/webinar-building-scalable-data-applications-with-spring-and-gemfire" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2014-12-02:1868</id>
-    <updated>2014-12-02T09:57:00Z</updated>
-    <content type="html">&lt;p&gt;Speaker: Luke Shannon &lt;/p&gt;
-
-&lt;p&gt;GemFire is Pivotal's distributed In Memory Data grid. In this session we will cover simplifying configuring a GemFire grid using Spring Data GemFire, and explore how data is dynamically distributed and made highly available as the grid resources are increased or decreased to meet increased client demand. GemFire access and testing patterns using Spring will be reviewed in detail.  We will walk through creating a domain object and using Spring Data GemFire Repositories to perform CRUD operations on a GemFire grid, creating a Spring MVC/Spring Boot application that uses GemFire as its persistence layer, review how Spring Boot and Spring Data GemFire can be used to help with GemFire test cases and how Spring Data GemFire can make creation and execution of GemFire functions easier. We will also explore how Spring XD can be used to load and monitor data changes in the grid. This will be a hands on, code oriented session. &lt;/p&gt;
-
-&lt;p&gt;Tuesday, Jan 13th, 2015 3:00PM GMT (London GMT) &lt;a href="http://connect.pivotal.io/OSS_Webinar_7AMBuildingScalableDataApplicationswithSpringandGemFire_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Tuesday, Jan 13th, 2015 10:00AM PST (San Francisco GMT-08:00) &lt;a href="http://connect.pivotal.io/OSS_Webinar_10AMBuildingScalableDataApplicationswithSpringandGemFire_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
 
