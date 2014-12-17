@@ -87,6 +87,8 @@
 							uri="/j_spring_security_logout">Logout</g:link>)
 					  <g:javascript>
 						  window.username = '${sec.username}';
+						  <g:set var="user" value="${sec.username}" />
+						  user = sec.username; 
 						</g:javascript>
 					</sec:ifAllGranted>
 				</div>
