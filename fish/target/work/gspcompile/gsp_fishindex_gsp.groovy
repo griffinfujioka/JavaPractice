@@ -49,26 +49,19 @@ printHtmlPart(9)
 createClosureForHtmlPart(10, 3)
 invokeTag('link','g',87,['uri':("/j_spring_security_logout")],3)
 printHtmlPart(11)
-createTagBody(3, {->
+})
+invokeTag('ifAllGranted','sec',88,['roles':("ROLE_USER")],2)
 printHtmlPart(12)
-expressionOut.print(sec.username)
+})
+invokeTag('captureBody','sitemesh',587,['id':("page-top"),'class':("index")],1)
 printHtmlPart(13)
-})
-invokeTag('javascript','g',90,[:],3)
-printHtmlPart(7)
-})
-invokeTag('ifAllGranted','sec',91,['roles':("ROLE_USER")],2)
-printHtmlPart(14)
-})
-invokeTag('captureBody','sitemesh',590,['id':("page-top"),'class':("index")],1)
-printHtmlPart(15)
 }
 public static final Map JSP_TAGS = new HashMap()
 protected void init() {
 	this.jspTags = JSP_TAGS
 }
 public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
-public static final long LAST_MODIFIED = 1418714354000L
+public static final long LAST_MODIFIED = 1418797673000L
 public static final String EXPRESSION_CODEC = 'html'
 public static final String STATIC_CODEC = 'none'
 public static final String OUT_CODEC = 'html'
