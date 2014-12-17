@@ -2,6 +2,8 @@ package fish
 
 import com.fish.FacebookUser
 import com.fish.User
+import com.fish.UserRole
+import com.fish.Role
 import com.the6hours.grails.springsecurity.facebook.FacebookAuthToken
 import grails.transaction.Transactional
 import org.springframework.security.core.AuthenticationException
@@ -54,7 +56,7 @@ class FacebookAuthService {
         String lastName = fbProfile.lastName
 
         User person = new User(
-                username: username,
+                username: [firstName, lastName].join(' '),
                 password: token.accessToken.accessToken, //not really necessary
                 enabled: true,
                 accountExpired:  false,
@@ -65,7 +67,9 @@ class FacebookAuthService {
                 name: [firstName, lastName].join(' '),
                 email: email
         )
-        person.save()
+        person.save( flush : true)
+		person.validate()
+		println person.errors
         UserRole.create(person, Role.findByAuthority('ROLE_USER'))
         UserRole.create(person, Role.findByAuthority('ROLE_FACEBOOK'))
         FacebookUser fbUser = new FacebookUser(

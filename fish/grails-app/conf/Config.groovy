@@ -135,6 +135,6 @@ log4j.main = {
 
 
 
-grails.plugin.springsecurity.facebook.domain.classname='FacebookUser'
+grails.plugin.springsecurity.facebook.domain.classname='com.fish.FacebookUser'
 grails.plugin.springsecurity.facebook.appId='313445308852595'
 grails.plugin.springsecurity.facebook.secret='58afdb6a3edcd066d5feca923e2c740c'
