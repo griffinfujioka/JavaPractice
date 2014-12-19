@@ -84,7 +84,7 @@ class UserRole implements Serializable {
 			boolean existing = false
 			UserRole.withNewSession {
 				if(ur.user.id == null) 
-					existing = false
+					existing = null
 				else 
 					existing = UserRole.exists(ur.user.id, r.id)
 			}
