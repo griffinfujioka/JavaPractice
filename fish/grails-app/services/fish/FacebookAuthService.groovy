@@ -65,7 +65,8 @@ class FacebookAuthService {
 
                 //fill with data loaded from Facebook API
                 name: [firstName, lastName].join(' '),
-                email: email
+                email: email,
+				profilePictureUrl: "https://graph.facebook.com/" + token.uid + "/picture?type=normal"
         )
         person.save( flush : true)
 		person.validate()
@@ -76,7 +77,11 @@ class FacebookAuthService {
                 uid: token.uid,
                 accessToken: token.accessToken.accessToken,
                 accessTokenExpires: token.accessToken.expireAt,
-                user: person
+                user: person, 
+				
+				// Added fields 
+				username: [firstName, lastName].join(' '), 
+				profilePictureUrl: "https://graph.facebook.com/" + token.uid + "/picture?type=normal"
         )
         fbUser.save()
         return fbUser

@@ -15,6 +15,9 @@ class User {
 	boolean passwordExpired
 	String name
 	String email
+	
+	// Added fields 
+	String profilePictureUrl
 
 	static transients = ['springSecurityService']
 
