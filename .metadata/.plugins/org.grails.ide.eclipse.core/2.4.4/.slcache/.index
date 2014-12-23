@@ -8216,3 +8216,6 @@ n:1919:org/codehaus/groovy/transform/stc/TypeCheckingContext$EnclosingClosure
 n:1091:org/codehaus/groovy/transform/stc/DelegationMetadata
 n:344:javax/servlet/AsyncListener
 n:1694:org/codehaus/groovy/classgen/asm/sc/StaticTypesClosureWriter$MethodTargetCompletionVisitor
+n:3253:BuildConfig$_run_closure1_closure5
+y:54399:grails/plugin/springsecurity/ui/UserController
+n:24997:grails/plugin/springsecurity/ui/AbstractS2UiController

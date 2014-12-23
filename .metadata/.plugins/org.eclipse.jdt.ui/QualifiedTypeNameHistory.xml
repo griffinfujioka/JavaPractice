@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="org.hibernate.dialect.H2Dialect"/>
 <fullyQualifiedTypeName name="grails.plugin.springsecurity.SecurityConfigType"/>
 <fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="java.lang.Package"/>
 </qualifiedTypeNameHistroy>

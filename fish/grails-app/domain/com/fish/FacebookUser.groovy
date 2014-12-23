@@ -4,7 +4,6 @@ import com.fish.User
 import grails.rest.Resource;
 
 @Resource(uri='/fbusers', formats=['json'])
-
 class FacebookUser {
 
     Long uid

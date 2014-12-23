@@ -1,0 +1,7 @@
+package com.fish
+
+import grails.plugin.springsecurity.annotation.Secured
+
+
+class UserController extends grails.plugin.springsecurity.ui.UserController {
+}

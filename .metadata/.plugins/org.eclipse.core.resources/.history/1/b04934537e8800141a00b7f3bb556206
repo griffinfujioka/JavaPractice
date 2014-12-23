@@ -1,0 +1,19 @@
+package com.fish
+
+import com.fish.User
+import grails.rest.Resource;
+
+@Resource(uri='/fbusers', formats=['json'])
+
+class FacebookUser {
+
+    Long uid
+    String accessToken
+    Date accessTokenExpires
+
+    static belongsTo = [user: User]
+
+    static constraints = {
+        uid unique: true
+    }
+}
