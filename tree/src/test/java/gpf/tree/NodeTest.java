@@ -18,6 +18,6 @@ public class NodeTest {
 	
 	@Test
 	public void testCreateNodeWithNullValue() { 
-		Node rightChild = mock(Node.class); 
+		
 	}
 }
