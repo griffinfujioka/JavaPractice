@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bocor bootstrap 3 one page template</title>
+    <title>Fircrest Door</title>
 	
     <!-- css -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -33,14 +33,14 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
 					<div class="animatedParent">
-						<h1 class="animated fadeInDown">MUSIM BOCOR</h1>
-						<p class="animated fadeInUp">Udah dari dulu tahu kalo bocor kenapa nggak ditambal tong</p>
+						<h1 class="animated fadeInDown">Fircrest Door</h1>
+						<p class="animated fadeInUp">Serving the Tacoma area since 1967</p>
 					</div>
 			   </div>
               </div>
               <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="#about" class="learn-more-btn btn-scroll">Learn more</a>
+                  <a href="#about" class="learn-more-btn btn-scroll">Get to know us </a>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@
                                     <div class="row">
                                           <div class="col-md-2">
                                                    <div class="site-logo">
-                                                            <a href="index.html" class="brand">Bocor</a>
+                                                            <a href="index.html" class="brand">Fircrest Door</a>
                                                     </div>
                                           </div>
                                           
@@ -73,8 +73,8 @@
                                                                   <li class="active"><a href="#intro">Home</a></li>
                                                                   <li><a href="#about">About Us</a></li>
 																   <li><a href="#service">Services</a></li>
-                                                                  <li><a href="#works">Works</a></li>				                                                                  
-                                                                  
+                                                                  <li><a href="#gallery">Gallery</a></li>				                                                                  
+                                                                  <li><a href="#testimonials">Testimonials</a></li>
                                                                   <li><a href="#contact">Contact</a></li>
                                                             </ul>
                                                       </div>
@@ -95,7 +95,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="animatedParent">
 					<div class="section-heading text-center animated bounceInDown">
-					<h2 class="h-bold">About our bocor team</h2>
+					<h2 class="h-bold">About Fircrest Door</h2>
 					<div class="divider-header"></div>
 					</div>
 					</div>
@@ -113,18 +113,63 @@
             <div class="col-lg-8 col-lg-offset-2 animatedParent">		
 				<div class="text-center">
 					<p>
-					Lorem ipsum dolor sit amet, vis tale malis tacimates et, graece doctus omnesque ne est, deserunt pertinacia ne nam. Pro eu simul affert referrentur, natum mutat erroribus te his
+					Fircrest Door was started as the neighborhood door shop but has grown with the times and now is known for their custom doors. Our long time employees continue to provide great customer services in all aspect of our business. We have a show room with many products for you to view and choose from.
 					</p>
-					<p>
-					Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. 
-					</p>
-					<a href="#service" class="btn btn-skin btn-scroll">What we do</a>
+					<a href="#service" class="btn btn-skin btn-scroll">Services</a>
 				</div>
             </div>
 		
 
         </div>		
 		</div>
+		
+		<!-- Hours -->
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="animatedParent">
+					<div class="section-heading text-center animated bounceInDown">
+					<h2 class="h-bold">Hours & Location</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+
+		
+        <div class="row">
+		
+		
+            <div class="col-lg-8 col-lg-offset-2 animatedParent">		
+				<div class="text-center">
+					<p>
+						Monday-Friday 
+						<br>
+						7:00 am - 5:00 pm
+					</p>
+					<br>
+					<p> 
+						3024 S. Mullen St. 
+						<br>
+						Tacoma, WA 98409 
+						<br>
+						Phone: 253-564-6921 
+						<br>
+						Fax: 253-564-0863
+						<br>
+						sales@fircrestdoor.com
+					</p>
+				</div>
+            </div>
+		
+
+        </div>		
+		</div>
+		<!-- Hours -->
 
 	</section>
 	<!-- /Section: about -->
@@ -137,7 +182,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div>
 					<div class="section-heading text-center">
-					<h2 class="h-bold">What we can do for you</h2>
+					<h2 class="h-bold">Services</h2>
 					<div class="divider-header"></div>
 					</div>
 					</div>
@@ -157,7 +202,7 @@
 						<span class="fa fa-laptop fa-2x"></span> 
 					</div>
 					<div class="service-desc">						
-						<h5>Web Design</h5>
+						<h5>Residental and Lite Commercial</h5>
 						<div class="divider-header"></div>
 						<p>
 						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
@@ -174,7 +219,7 @@
 						<span class="fa fa-camera fa-2x"></span> 
 					</div>
 					<div class="service-desc">
-						<h5>Photography</h5>
+						<h5>New Construction</h5>
 						<div class="divider-header"></div>
 						<p>
 						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
@@ -191,7 +236,7 @@
 						<span class="fa fa-code fa-2x"></span> 
 					</div>
 					<div class="service-desc">
-						<h5>Graphic design</h5>
+						<h5>Remodel & Replacement Doors</h5>
 						<div class="divider-header"></div>
 						<p>
 						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
@@ -210,14 +255,14 @@
 	
 
 	<!-- Section: works -->
-    <section id="works" class="home-section color-dark text-center bg-white">
+    <section id="gallery" class="home-section color-dark text-center bg-white">
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<div>
 					<div class="animatedParent">
 					<div class="section-heading text-center">
-					<h2 class="h-bold animated bounceInDown">What we have done</h2>
+					<h2 class="h-bold animated bounceInDown">Some of our recent projects</h2>
 					<div class="divider-header"></div>
 					</div>
 					</div>
