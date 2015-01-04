@@ -113,9 +113,8 @@
             <div class="col-lg-8 col-lg-offset-2 animatedParent">		
 				<div class="text-center">
 					<p>
-					Fircrest Door was started as the neighborhood door shop but has grown with the times and now is known for their custom doors. Our long time employees continue to provide great customer services in all aspect of our business. We have a show room with many products for you to view and choose from.
+					Fircrest Door was started as the neighborhood door shop but has grown with the times and now is known for their custom doors. Our long time employees continue to provide great customer services in all aspects of our business. We have a show room with many products for you to view and choose from.
 					</p>
-					<a href="#service" class="btn btn-skin btn-scroll">Services</a>
 				</div>
             </div>
 		
@@ -163,6 +162,8 @@
 						<br>
 						sales@fircrestdoor.com
 					</p>
+					<br>
+					<a href="#service" class="btn btn-skin btn-scroll">Services</a>
 				</div>
             </div>
 		
@@ -279,23 +280,23 @@
 
                     <div class="row gallery-item">
                         <div class="col-md-3 animated fadeInUp">
-							<a href="img/works/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/1.jpg" class="img-responsive" alt="img">
+							<a href="img/projects/01.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/01.jpg" class="img-responsive" alt="img">
 							</a>
 						</div>
 						<div class="col-md-3 animated fadeInUp slow">
-							<a href="img/works/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/2.jpg" class="img-responsive" alt="img">
+							<a href="img/projects/02.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/02.jpg" class="img-responsive" alt="img">
 							</a>
 						</div>
 						<div class="col-md-3 animated fadeInUp slower">
-							<a href="img/works/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/3.jpg" class="img-responsive" alt="img">
+							<a href="img/projects/03.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/03.jpg" class="img-responsive" alt="img">
 							</a>
 						</div>
 						<div class="col-md-3 animated fadeInUp">
-							<a href="img/works/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/4.jpg" class="img-responsive" alt="img">
+							<a href="img/projects/04.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/04.jpg" class="img-responsive" alt="img">
 							</a>
 						</div>
 					</div>
@@ -306,6 +307,65 @@
 
 	</section>
 	<!-- /Section: works -->
+	
+	<!-- Section: testimonials -->
+    <section id="testimonials" class="home-section color-dark bg-gray">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div>
+					<div class="section-heading text-center">
+					<h2 class="h-bold">Testimonials</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center">
+		<div class="container">
+
+        <div class="row animatedParent">
+            <div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-laptop fa-2x"></span> 
+					</div>
+					<div class="service-desc">						
+						<h5>Andy and Dawn H., Tacoma</h5>
+						<div class="divider-header"></div>
+						<p>
+						We love Fircrest Door. Their customer service is second to none.
+						</p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft slow">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-camera fa-2x"></span> 
+					</div>
+					<div class="service-desc">
+						<h5>Henry P., Tacoma</h5>
+						<div class="divider-header"></div>
+						<p>
+						After visiting several door companies I decided on Fircrest door after seeing the quality of their work. My new doors are incredible!
+						</p>
+					</div>
+                </div>
+				</div>
+            </div>
+
+        </div>		
+		</div>
+		</div>
+	</section>
+	<!-- /Section: services -->
 
 	<!-- Section: contact -->
     <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
@@ -364,12 +424,11 @@
 			<div class="row">
 				<div class="col-md-6">
 					<ul class="footer-menu">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Press release</a></li>
+						<li><a href="#">Back to Top</a></li>
 					</ul>
 				</div>
 				<div class="col-md-6 text-right">
-					<p>&copy;Copyright 2014 - Bocor. Designed by <a href="http://bootstraptaste.com">Bootstraptaste</a></p>
+					<p>&copy;Copyright 2015 - Fircrest Door. Designed by <a href="http://bootstraptaste.com">Bootstraptaste</a></p>
 				</div>
 			</div>	
 		</div>
