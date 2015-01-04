@@ -150,7 +150,6 @@
 						<br>
 						7:00 am - 5:00 pm
 					</p>
-					<br>
 					<p> 
 						3024 S. Mullen St. 
 						<br>
@@ -162,8 +161,6 @@
 						<br>
 						sales@fircrestdoor.com
 					</p>
-					<br>
-					<a href="#service" class="btn btn-skin btn-scroll">Services</a>
 				</div>
             </div>
 		
@@ -240,7 +237,12 @@
 						<h5>Remodel & Replacement Doors</h5>
 						<div class="divider-header"></div>
 						<p>
-						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
+							Ext. Doors: Wood, Metal, Fiberglass. 
+							We use: Simpson, Rogue Valley. Buffelen. Lemieux, Codel, Jeldwen, Signamark, Craftmaster, Lynden Door & Customs.
+						</p>
+						<br>
+						<p>
+							Int. Doors: Factory Finish Hardboard, Masonite, Wood, Woodfold According & Molded Panel (Hollow Core and Solid Core.)
 						</p>
 						<a href="#" class="btn btn-skin">Learn more</a>
 					</div>
@@ -297,6 +299,41 @@
 						<div class="col-md-3 animated fadeInUp">
 							<a href="img/projects/04.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
 								<img src="img/projects/04.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp">
+							<a href="img/projects/05.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/05.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp">
+							<a href="img/projects/06.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/06.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp">
+							<a href="img/projects/07.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/07.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp">
+							<a href="img/projects/08.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/08.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp">
+							<a href="img/projects/09.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/09.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp">
+							<a href="img/projects/10.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/10.jpg" class="img-responsive" alt="img">
+							</a>
+						</div>
+						<div class="col-md-3 animated fadeInUp">
+							<a href="img/projects/11.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/projects/11.jpg" class="img-responsive" alt="img">
 							</a>
 						</div>
 					</div>
