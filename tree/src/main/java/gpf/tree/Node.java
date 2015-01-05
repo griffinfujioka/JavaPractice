@@ -1,9 +1,12 @@
 package gpf.tree;
 
 public class Node {
-	int value; 
+	Integer value; 
 	
-	public Node(int value) { 
+	public Node(Integer value) throws Exception { 
+		if(value == null) 
+			throw new Exception("Invalid value"); 
+		
 		this.value = value; 
 	}
 	

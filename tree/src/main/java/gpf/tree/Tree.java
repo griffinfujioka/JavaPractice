@@ -17,11 +17,15 @@ public abstract class Tree {
 		System.out.println("\t3. Print tree");
 	} 
 	
+	public Node getRoot() { 
+		return this.root; 
+	}
+	
 	public abstract int getDepth(Node node); 
 	
-	abstract void insertNode(int value);
+	abstract void insertNode(int value) throws Exception;
 	
-	abstract void deleteNode(int value);
+	abstract void deleteNode(int value) throws Exception;
 	
 	abstract void print(); 
 	

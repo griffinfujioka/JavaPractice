@@ -3,16 +3,17 @@ package gpf.tree;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-import static org.mockito.Matchers.any;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
 
 public class NodeTest {
 
 	@Test
-	public void testCreateNodeWithValue() { 
+	public void testCreateNodeWithValue() throws Exception { 
 		Node node = new Node(1); 
 		assertTrue(1 == node.getValue()); 
+	}
+	
+	@Test(expected = Exception.class)
+	public void testCreateNodeWithNullValue() throws Exception { 
+		new Node((Integer)null); 
 	}
 }

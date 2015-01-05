@@ -3,18 +3,17 @@ package gpf.tree;
 import java.util.Scanner;
 
 /**
- * 
- *
+ * Author: Griffin Fujioka
+ * Date: 1/4/2015
  */
 public class Main 
 {
-    public static void main( String[] args )
+    public static void main( String[] args ) throws Exception
     {
         System.out.println( "Welcome to Griffin's Trinary Tree program!" );
         String input = ""; 
         Scanner in = new Scanner(System.in); 
-        int menuChoice; 
-        int value;
+        int menuChoice, value;
         TrinaryTree tree = new TrinaryTree(); 
         
         while(!input.equals("quit")) { 
@@ -37,8 +36,6 @@ public class Main
 	        	default:
 	        		break;
         	}
-        	
-        	tree.print();
         }
         
         System.out.println("Goodbye!");

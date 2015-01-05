@@ -6,11 +6,11 @@ public class TrinaryNode extends Node {
 	Node middle; 
 	Node right; 
 
-	public TrinaryNode(int value) {
+	public TrinaryNode(int value) throws Exception {
 		super(value);
 	}
 
-	public TrinaryNode(int value, Node left, Node middle, Node right) {
+	public TrinaryNode(int value, Node left, Node middle, Node right) throws Exception {
 		super(value); 
 		this.left = left; 
 		this.middle = middle; 
@@ -44,7 +44,4 @@ public class TrinaryNode extends Node {
 	public void setValue(int value) {
 		this.value = value; 
 	}
-	
-	
-	
 }

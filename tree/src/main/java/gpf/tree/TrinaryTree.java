@@ -6,7 +6,7 @@ public class TrinaryTree extends Tree {
 		super(); 
 	}
 	
-	public void insertNode(int value) {
+	public void insertNode(int value) throws Exception {
 		if(root == null) { 
 			root = new TrinaryNode(value);
 			depth = 1; 
@@ -16,7 +16,7 @@ public class TrinaryTree extends Tree {
 		}
 	}
 
-	private void insertNode(TrinaryNode node, int value) {
+	private void insertNode(TrinaryNode node, int value) throws Exception {
 		if(node.getValue() < value) { 
 			if(node.getRight() != null) { 
 				insertNode((TrinaryNode)node.getRight(), value); 
@@ -56,7 +56,7 @@ public class TrinaryTree extends Tree {
 			}
 			
 			if(triNode.getMiddle() != null) { 
-				deleteNode(triNode.getMiddle(), value);
+				triNode.setMiddle((TrinaryNode)deleteNode(triNode.getMiddle(), value));
 			} else { 
 				if(triNode.getLeft() != null && triNode.getRight() != null) {
 					// both right and left children exist
