@@ -569,7 +569,7 @@ public class MainActivity extends FragmentActivity {
                 
 //                HttpPost httpPost = new HttpPost(url_select);
 //                httpPost.setEntity(new UrlEncodedFormEntity(param));
-                HttpResponse httpResponse = httpClient.execute(httpGet);
+                HttpResponse httpResponse = httpClient.execute(httpPost);
                 HttpEntity httpEntity = httpResponse.getEntity();
 
                 // Read content & Log

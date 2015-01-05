@@ -165,6 +165,5 @@ INDEX VERSION 1.126+/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata
 3184799729.index
 2865898160.index
 1901498368.index
-3773479652.index
 420156057.index
 1045789776.index

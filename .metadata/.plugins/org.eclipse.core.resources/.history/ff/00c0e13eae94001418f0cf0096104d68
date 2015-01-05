@@ -43,7 +43,6 @@ import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONArray;
@@ -565,11 +564,9 @@ public class MainActivity extends FragmentActivity {
                 // HttpClient is more then less deprecated. Need to change to URLConnection
                 HttpClient httpClient = new DefaultHttpClient();
 
-                HttpGet httpGet = new HttpGet(url_select); 
-                
-//                HttpPost httpPost = new HttpPost(url_select);
-//                httpPost.setEntity(new UrlEncodedFormEntity(param));
-                HttpResponse httpResponse = httpClient.execute(httpGet);
+                HttpPost httpPost = new HttpPost(url_select);
+                httpPost.setEntity(new UrlEncodedFormEntity(param));
+                HttpResponse httpResponse = httpClient.execute(httpPost);
                 HttpEntity httpEntity = httpResponse.getEntity();
 
                 // Read content & Log
