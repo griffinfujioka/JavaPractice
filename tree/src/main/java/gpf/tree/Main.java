@@ -29,7 +29,7 @@ public class Main
 	        	case 2: 
 	        		System.out.println("Enter the value to delete: "); 
 	        		value = in.nextInt(); 
-	        		tree.deleteNode(new Node(value));
+	        		tree.deleteNode(value);
 	        		break; 
 	        	case 3: 
 	        		tree.print();

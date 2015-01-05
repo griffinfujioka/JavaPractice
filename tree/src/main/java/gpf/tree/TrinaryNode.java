@@ -40,6 +40,10 @@ public class TrinaryNode extends Node {
 	public void setMiddle(TrinaryNode trinaryNode) {
 		this.middle = trinaryNode; 
 	}
+
+	public void setValue(int value) {
+		this.value = value; 
+	}
 	
 	
 	

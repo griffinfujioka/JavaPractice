@@ -21,7 +21,7 @@ public abstract class Tree {
 	
 	abstract void insertNode(int value);
 	
-	abstract void deleteNode(Node node);
+	abstract void deleteNode(int value);
 	
 	abstract void print(); 
 	

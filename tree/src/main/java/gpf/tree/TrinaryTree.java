@@ -38,9 +38,53 @@ public class TrinaryTree extends Tree {
 		}
 	}
 
-	public void deleteNode(Node node) {
-		// TODO Auto-generated method stub
+	public void deleteNode(int value) {
+		root = deleteNode(root, value);
+	}
+
+	private Node deleteNode(Node node, int value) {
+		if(node == null)
+			return null;
 		
+		TrinaryNode triNode = (TrinaryNode)node; 
+		if(node.getValue() == value) { 
+			// all children are null
+			if(triNode.getLeft() == null &&
+					triNode.getMiddle() == null &&
+					triNode.getRight() == null) { 
+				return null;
+			}
+			
+			if(triNode.getMiddle() != null) { 
+				deleteNode(triNode.getMiddle(), value);
+			} else { 
+				if(triNode.getLeft() != null && triNode.getRight() != null) {
+					// both right and left children exist
+					TrinaryNode successor = findSuccessor((TrinaryNode)triNode.getRight()); 
+					triNode.setValue(successor.getValue()); 
+					triNode.setRight((TrinaryNode)deleteNode(triNode.getRight(), successor.getValue())); 
+				} else if(triNode.getLeft() != null) { 
+					// right child is empty
+					return triNode.getLeft(); 
+				} else if(triNode.getRight() != null) { 
+					// left child is empty
+					return triNode.getRight(); 
+				}
+			}
+		} else if(node.getValue() < value) { 
+			triNode.setRight((TrinaryNode)deleteNode(triNode.getRight(),value));
+		} else {
+			triNode.setLeft((TrinaryNode)deleteNode(triNode.getLeft(), value)); 
+		}
+		
+		return triNode; 
+	}
+
+	private TrinaryNode findSuccessor(TrinaryNode node) {
+		if(node.getLeft() == null)
+			return node; 
+		
+		return findSuccessor((TrinaryNode)node.getLeft());
 	}
 
 	@Override
