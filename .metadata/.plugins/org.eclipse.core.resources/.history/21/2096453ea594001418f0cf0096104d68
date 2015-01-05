@@ -1,0 +1,5 @@
+package com.fish.android;
+
+public class AsyncDataTask extends AsyncTask<String, String, Void> {
+
+}

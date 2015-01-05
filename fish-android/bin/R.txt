@@ -140,7 +140,8 @@ int id com_facebook_tooltip_bubble_view_top_pointer 0x7f08001f
 int id com_facebook_usersettingsfragment_login_button 0x7f080025
 int id com_facebook_usersettingsfragment_logo_image 0x7f080023
 int id com_facebook_usersettingsfragment_profile_name 0x7f080024
-int id fragment_container 0x7f08002e
+int id fetchJsonDataButton 0x7f08002e
+int id fragment_container 0x7f08002f
 int id greeting 0x7f080028
 int id inline 0x7f080007
 int id large 0x7f080000

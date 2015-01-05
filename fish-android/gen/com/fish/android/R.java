@@ -329,7 +329,8 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_login_button=0x7f080025;
         public static final int com_facebook_usersettingsfragment_logo_image=0x7f080023;
         public static final int com_facebook_usersettingsfragment_profile_name=0x7f080024;
-        public static final int fragment_container=0x7f08002e;
+        public static final int fetchJsonDataButton=0x7f08002e;
+        public static final int fragment_container=0x7f08002f;
         public static final int greeting=0x7f080028;
         public static final int inline=0x7f080007;
         public static final int large=0x7f080000;

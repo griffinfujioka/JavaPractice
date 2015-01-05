@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;fish-android&apos;&#x0A;- Original project: &apos;fish-android&apos;&#x0A;- Original element: &apos;com.fish.android.AsyncDataTask.java&apos;" description="Delete element" element1="/src&lt;com.fish.android{AsyncDataTask.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1420440091566" subPackages="false" version="1.0"/>
+</session>

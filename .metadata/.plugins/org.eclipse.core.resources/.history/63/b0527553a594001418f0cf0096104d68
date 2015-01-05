@@ -1,0 +1,21 @@
+package com.fish.android;
+
+import java.io.InputStream;
+
+import android.app.ProgressDialog;
+import android.os.AsyncTask;
+
+public class AsyncDataTask extends AsyncTask<String, String, Void> {
+
+	
+	private ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
+    InputStream inputStream = null;
+    String result = "";
+    
+	@Override
+	protected Void doInBackground(String... arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

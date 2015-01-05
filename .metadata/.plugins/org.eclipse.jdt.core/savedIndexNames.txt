@@ -1,11 +1,10 @@
-INDEX VERSION 1.127+/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.jdt.core
+INDEX VERSION 1.126+/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.jdt.core
 3956595047.index
 3724338235.index
 3668162029.index
 3980097714.index
 3712507179.index
 4015672458.index
-930504317.index
 2628339471.index
 4058801346.index
 823015834.index
@@ -39,9 +38,9 @@ INDEX VERSION 1.127+/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata
 1033776771.index
 4120796779.index
 740306335.index
-3851213006.index
 2295984086.index
 2393987379.index
+3851213006.index
 3266567714.index
 3319536763.index
 719449785.index
@@ -100,7 +99,6 @@ INDEX VERSION 1.127+/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata
 639822560.index
 3774855723.index
 1643603647.index
-1491074641.index
 3729384100.index
 2145704940.index
 1664224264.index
