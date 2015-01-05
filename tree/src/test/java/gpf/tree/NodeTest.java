@@ -15,9 +15,4 @@ public class NodeTest {
 		Node node = new Node(1); 
 		assertTrue(1 == node.getValue()); 
 	}
-	
-	@Test
-	public void testCreateNodeWithNullValue() { 
-		
-	}
 }

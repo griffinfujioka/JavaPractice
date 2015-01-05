@@ -17,6 +17,30 @@ public class TrinaryNode extends Node {
 		this.right = right; 
 	}
 	
+	public Node getRight() { 
+		return this.right; 
+	}
+	
+	public Node getLeft() { 
+		return this.left; 
+	}
+	
+	public Node getMiddle() { 
+		return this.middle; 
+	}
+
+	public void setRight(TrinaryNode trinaryNode) {
+		this.right = trinaryNode; 
+	}
+
+	public void setLeft(TrinaryNode trinaryNode) {
+		this.left = trinaryNode; 
+	}
+
+	public void setMiddle(TrinaryNode trinaryNode) {
+		this.middle = trinaryNode; 
+	}
+	
 	
 	
 }
