@@ -86,22 +86,6 @@
                     android:layout_height="wrap_content"
                     android:text="Fetch JSON data"
                     />
-            <TextView
-                    android:id="@+id/profilePictureUrl"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_gravity="center"
-                    android:textColor="#333"
-                    android:textSize="18sp"/>
-            <TextView
-                    android:id="@+id/username"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_gravity="center"
-                    android:textColor="#333"
-                    android:textSize="18sp"/>
         </LinearLayout>
     </LinearLayout>
     <FrameLayout

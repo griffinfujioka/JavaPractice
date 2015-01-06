@@ -141,7 +141,7 @@ int id com_facebook_usersettingsfragment_login_button 0x7f080025
 int id com_facebook_usersettingsfragment_logo_image 0x7f080023
 int id com_facebook_usersettingsfragment_profile_name 0x7f080024
 int id fetchJsonDataButton 0x7f08002e
-int id fragment_container 0x7f08002f
+int id fragment_container 0x7f080031
 int id greeting 0x7f080028
 int id inline 0x7f080007
 int id large 0x7f080000
@@ -155,10 +155,12 @@ int id picker_subtitle 0x7f08001b
 int id postPhotoButton 0x7f08002b
 int id postStatusUpdateButton 0x7f08002a
 int id profilePicture 0x7f080029
+int id profilePictureUrl 0x7f08002f
 int id right 0x7f08000b
 int id small 0x7f080002
 int id standard 0x7f080005
 int id top 0x7f080008
+int id username 0x7f080030
 int layout com_facebook_friendpickerfragment 0x7f030000
 int layout com_facebook_login_activity_layout 0x7f030001
 int layout com_facebook_picker_activity_circle_row 0x7f030002

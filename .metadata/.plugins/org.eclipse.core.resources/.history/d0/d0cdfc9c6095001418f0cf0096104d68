@@ -18,7 +18,6 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -78,8 +77,6 @@ public class MainActivity extends FragmentActivity {
     private List<GraphUser> tags;
     private boolean canPresentShareDialog;
     private boolean canPresentShareDialogWithPhotos;
-    private String profilePictureUrl;
-    private String username;
 
     private enum PendingAction {
         NONE,
@@ -546,19 +543,15 @@ public class MainActivity extends FragmentActivity {
 
                     JSONObject jObject = jArray.getJSONObject(i);
 
-                    profilePictureUrl = jObject.getString("profilePictureUrl");
-                    username = jObject.getString("username");
-                    TextView profilePictureUrlTextView = (TextView)findViewById(R.id.profilePictureUrl);
-                    TextView usernameTextView = (TextView)findViewById(R.id.username);
-                    profilePictureUrlTextView.setText(profilePictureUrl);
-                    usernameTextView.setText(username);
+                    String profilePictureUrl = jObject.getString("profilePictureUrl");
+                    String username = jObject.getString("username");
 
                 } // End Loop
                 this.progressDialog.dismiss();
             } catch (JSONException e) {
                 Log.e("JSONException", "Error: " + e.toString());
-            } 
-        } 
+            } // catch (JSONException e)
+        } // protected void onPostExecute(Void v)
         
     	@Override
     	protected String doInBackground(String... arg0) {
@@ -567,12 +560,15 @@ public class MainActivity extends FragmentActivity {
           ArrayList<NameValuePair> param = new ArrayList<NameValuePair>();
 
             try {
-                // Set up HTTP request
+                // Set up HTTP post
 
                 // HttpClient is more then less deprecated. Need to change to URLConnection
                 HttpClient httpClient = new DefaultHttpClient();
 
                 HttpGet httpGet = new HttpGet(url_select); 
+                
+//                HttpPost httpPost = new HttpPost(url_select);
+//                httpPost.setEntity(new UrlEncodedFormEntity(param));
                 HttpResponse httpResponse = httpClient.execute(httpGet);
                 HttpEntity httpEntity = httpResponse.getEntity();
 

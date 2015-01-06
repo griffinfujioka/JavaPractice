@@ -168,6 +168,10 @@ public class MainActivity extends FragmentActivity {
             public void onClick(View view) {
             	AsyncDataTask dataTask = new AsyncDataTask(); 
             	dataTask.execute("");
+            	ImageView profilePictureView = (ImageView) view;
+            	profilePictureView.setContentDescription(profilePictureUrl);
+            	ImageView usernameView = (ImageView) view;
+            	usernameView.setContentDescription(username);
             }
         });
 

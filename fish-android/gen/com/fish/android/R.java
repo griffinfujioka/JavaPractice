@@ -330,7 +330,7 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_logo_image=0x7f080023;
         public static final int com_facebook_usersettingsfragment_profile_name=0x7f080024;
         public static final int fetchJsonDataButton=0x7f08002e;
-        public static final int fragment_container=0x7f08002f;
+        public static final int fragment_container=0x7f080031;
         public static final int greeting=0x7f080028;
         public static final int inline=0x7f080007;
         public static final int large=0x7f080000;
@@ -344,10 +344,12 @@ containing a value of this type.
         public static final int postPhotoButton=0x7f08002b;
         public static final int postStatusUpdateButton=0x7f08002a;
         public static final int profilePicture=0x7f080029;
+        public static final int profilePictureUrl=0x7f08002f;
         public static final int right=0x7f08000b;
         public static final int small=0x7f080002;
         public static final int standard=0x7f080005;
         public static final int top=0x7f080008;
+        public static final int username=0x7f080030;
     }
     public static final class layout {
         public static final int com_facebook_friendpickerfragment=0x7f030000;

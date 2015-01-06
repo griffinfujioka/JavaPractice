@@ -168,6 +168,10 @@ public class MainActivity extends FragmentActivity {
             public void onClick(View view) {
             	AsyncDataTask dataTask = new AsyncDataTask(); 
             	dataTask.execute("");
+            	ImageView profilePictureView = (ImageView) view;
+            	profilePictureView.setContentDescription(profilePictureUrl);
+            	ImageView usernameView = (ImageView) view;
+            	usernameView.setContentDescription(username);
             }
         });
 
@@ -549,9 +553,8 @@ public class MainActivity extends FragmentActivity {
                     profilePictureUrl = jObject.getString("profilePictureUrl");
                     username = jObject.getString("username");
                     TextView profilePictureUrlTextView = (TextView)findViewById(R.id.profilePictureUrl);
-                    TextView usernameTextView = (TextView)findViewById(R.id.username);
+                    TextView profilePictureUrlTextView = (TextView)findViewById(R.id.username);
                     profilePictureUrlTextView.setText(profilePictureUrl);
-                    usernameTextView.setText(username);
 
                 } // End Loop
                 this.progressDialog.dismiss();
