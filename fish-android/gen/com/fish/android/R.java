@@ -331,7 +331,7 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_logo_image=0x7f080023;
         public static final int com_facebook_usersettingsfragment_profile_name=0x7f080024;
         public static final int fetchJsonDataButton=0x7f08002e;
-        public static final int fragment_container=0x7f080031;
+        public static final int fragment_container=0x7f080032;
         public static final int greeting=0x7f080028;
         public static final int inline=0x7f080007;
         public static final int large=0x7f080000;
@@ -347,6 +347,7 @@ containing a value of this type.
         public static final int profilePicture=0x7f080029;
         public static final int profilePictureUrl=0x7f08002f;
         public static final int right=0x7f08000b;
+        public static final int signUpButton=0x7f080031;
         public static final int small=0x7f080002;
         public static final int standard=0x7f080005;
         public static final int top=0x7f080008;
@@ -412,6 +413,7 @@ containing a value of this type.
         public static final int permission_not_granted=0x7f06001f;
         public static final int photo_post=0x7f060026;
         public static final int pick_seattle_place=0x7f06002a;
+        public static final int sign_up=0x7f06002e;
         public static final int status_update=0x7f060025;
         public static final int success=0x7f060022;
         public static final int successfully_posted_post=0x7f060023;

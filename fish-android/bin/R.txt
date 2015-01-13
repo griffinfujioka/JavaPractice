@@ -142,7 +142,7 @@ int id com_facebook_usersettingsfragment_login_button 0x7f080025
 int id com_facebook_usersettingsfragment_logo_image 0x7f080023
 int id com_facebook_usersettingsfragment_profile_name 0x7f080024
 int id fetchJsonDataButton 0x7f08002e
-int id fragment_container 0x7f080031
+int id fragment_container 0x7f080032
 int id greeting 0x7f080028
 int id inline 0x7f080007
 int id large 0x7f080000
@@ -158,6 +158,7 @@ int id postStatusUpdateButton 0x7f08002a
 int id profilePicture 0x7f080029
 int id profilePictureUrl 0x7f08002f
 int id right 0x7f08000b
+int id signUpButton 0x7f080031
 int id small 0x7f080002
 int id standard 0x7f080005
 int id top 0x7f080008
@@ -219,6 +220,7 @@ int string ok 0x7f060020
 int string permission_not_granted 0x7f06001f
 int string photo_post 0x7f060026
 int string pick_seattle_place 0x7f06002a
+int string sign_up 0x7f06002e
 int string status_update 0x7f060025
 int string success 0x7f060022
 int string successfully_posted_post 0x7f060023

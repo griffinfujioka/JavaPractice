@@ -36,7 +36,7 @@
                 facebook:fetch_user_info="true"
                 />
         <LinearLayout
-                android:layout_width="150dp"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
@@ -103,9 +103,17 @@
                     android:textColor="#333"
                     android:textSize="18sp"/>
             <!-- <ImageView
-		        android:id="@+id/p"
+		        android:id="@+id/profilePicture"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content" /> -->
+		       <Button
+                    android:id="@+id/signUpButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/sign_up"
+                    android:background="@android:color/transparent"
+                    android:textColor="#fff"
+                    />
         </LinearLayout>
     </LinearLayout>
     <FrameLayout

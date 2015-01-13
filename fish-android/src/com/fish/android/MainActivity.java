@@ -70,6 +70,7 @@ public class MainActivity extends FragmentActivity {
     private Button pickFriendsButton;
     private Button pickPlaceButton;
     private Button fetchJsonDataButton;
+    private Button signUpButton; 
     private LoginButton loginButton;
     private ProfilePictureView profilePictureView;
     private TextView greeting;
@@ -172,6 +173,15 @@ public class MainActivity extends FragmentActivity {
             	dataTask.execute("");
             }
         });
+        
+        signUpButton = (Button) findViewById(R.id.signUpButton); 
+        signUpButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+            	onClickSignUp(); 
+            }
+        });
+        
+        
 
         controlsContainer = (ViewGroup) findViewById(R.id.main_ui_container);
 
@@ -208,7 +218,11 @@ public class MainActivity extends FragmentActivity {
                 FacebookDialog.ShareDialogFeature.PHOTOS);
     }
 
-    @Override
+    private void onClickSignUp() {
+		// TODO: Navigate to a sign up page 
+	}
+
+	@Override
     protected void onResume() {
         super.onResume();
         uiHelper.onResume();
