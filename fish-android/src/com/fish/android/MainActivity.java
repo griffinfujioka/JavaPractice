@@ -33,6 +33,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -46,6 +47,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.BufferedHttpEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -550,8 +552,30 @@ public class MainActivity extends FragmentActivity {
                     username = jObject.getString("username");
                     TextView profilePictureUrlTextView = (TextView)findViewById(R.id.profilePictureUrl);
                     TextView usernameTextView = (TextView)findViewById(R.id.username);
+                    ImageView profilePictureImageView = (ImageView) findViewById(R.id.profilePicture); 
                     profilePictureUrlTextView.setText(profilePictureUrl);
                     usernameTextView.setText(username);
+                    try {
+                        URL url = new URL(profilePictureUrl);
+                        HttpGet httpRequest = null;
+
+                        httpRequest = new HttpGet(url.toURI());
+
+                        HttpClient httpclient = new DefaultHttpClient();
+                        HttpResponse response = (HttpResponse) httpclient
+                                .execute(httpRequest);
+
+                        HttpEntity entity = response.getEntity();
+                        BufferedHttpEntity b_entity = new BufferedHttpEntity(entity);
+                        InputStream input = b_entity.getContent();
+
+                        Bitmap bitmap = BitmapFactory.decodeStream(input);
+
+                        profilePictureImageView.setImageBitmap(bitmap);
+
+                    } catch (Exception ex) {
+
+                    }
 
                 } // End Loop
                 this.progressDialog.dismiss();

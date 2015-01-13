@@ -20,12 +20,12 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:background="#FFF"
+              android:background="@drawable/background"
         >
     <LinearLayout android:orientation="vertical"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
-                  android:background="#FFF"
+                  android:background="@drawable/background"
                   android:id="@+id/main_ui_container">
         <com.facebook.widget.LoginButton
                 android:id="@+id/login_button"
@@ -102,6 +102,10 @@
                     android:layout_gravity="center"
                     android:textColor="#333"
                     android:textSize="18sp"/>
+            <!-- <ImageView
+		        android:id="@+id/p"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" /> -->
         </LinearLayout>
     </LinearLayout>
     <FrameLayout
