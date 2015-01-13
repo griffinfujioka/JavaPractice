@@ -135,36 +135,36 @@ public class MainActivity extends FragmentActivity {
             }
         });
 
-        profilePictureView = (ProfilePictureView) findViewById(R.id.profilePicture);
-        greeting = (TextView) findViewById(R.id.greeting);
-
-        postStatusUpdateButton = (Button) findViewById(R.id.postStatusUpdateButton);
-        postStatusUpdateButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                onClickPostStatusUpdate();
-            }
-        });
-
-        postPhotoButton = (Button) findViewById(R.id.postPhotoButton);
-        postPhotoButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                onClickPostPhoto();
-            }
-        });
-
-        pickFriendsButton = (Button) findViewById(R.id.pickFriendsButton);
-        pickFriendsButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                onClickPickFriends();
-            }
-        });
-
-        pickPlaceButton = (Button) findViewById(R.id.pickPlaceButton);
-        pickPlaceButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                onClickPickPlace();
-            }
-        });
+//        profilePictureView = (ProfilePictureView) findViewById(R.id.profilePicture);
+//        greeting = (TextView) findViewById(R.id.greeting);
+//
+//        postStatusUpdateButton = (Button) findViewById(R.id.postStatusUpdateButton);
+//        postStatusUpdateButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                onClickPostStatusUpdate();
+//            }
+//        });
+//
+//        postPhotoButton = (Button) findViewById(R.id.postPhotoButton);
+//        postPhotoButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                onClickPostPhoto();
+//            }
+//        });
+//
+//        pickFriendsButton = (Button) findViewById(R.id.pickFriendsButton);
+//        pickFriendsButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                onClickPickFriends();
+//            }
+//        });
+//
+//        pickPlaceButton = (Button) findViewById(R.id.pickPlaceButton);
+//        pickPlaceButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//                onClickPickPlace();
+//            }
+//        });
         
         fetchJsonDataButton = (Button) findViewById(R.id.fetchJsonDataButton);
         fetchJsonDataButton.setOnClickListener(new View.OnClickListener() {
@@ -284,19 +284,19 @@ public class MainActivity extends FragmentActivity {
         Session session = Session.getActiveSession();
         boolean enableButtons = (session != null && session.isOpened());
 
-        postStatusUpdateButton.setEnabled(enableButtons || canPresentShareDialog);
-        postPhotoButton.setEnabled(enableButtons || canPresentShareDialogWithPhotos);
-        pickFriendsButton.setEnabled(enableButtons);
-        pickPlaceButton.setEnabled(enableButtons);
+//        postStatusUpdateButton.setEnabled(enableButtons || canPresentShareDialog);
+//        postPhotoButton.setEnabled(enableButtons || canPresentShareDialogWithPhotos);
+//        pickFriendsButton.setEnabled(enableButtons);
+//        pickPlaceButton.setEnabled(enableButtons);
         fetchJsonDataButton.setEnabled(true);
 
-        if (enableButtons && user != null) {
-            profilePictureView.setProfileId(user.getId());
-            greeting.setText(getString(R.string.hello_user, user.getFirstName()));
-        } else {
-            profilePictureView.setProfileId(null);
-            greeting.setText(null);
-        }
+//        if (enableButtons && user != null) {
+//            profilePictureView.setProfileId(user.getId());
+//            greeting.setText(getString(R.string.hello_user, user.getFirstName()));
+//        } else {
+//            profilePictureView.setProfileId(null);
+//            greeting.setText(null);
+//        }
     }
 
     @SuppressWarnings("incomplete-switch")
