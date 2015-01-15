@@ -370,6 +370,8 @@ containing a value of this type.
     }
     public static final class string {
         public static final int app_id=0x7f06002b;
+        /**  TODO: Clean up the ones you aren't using anymore.  
+         */
         public static final int app_name=0x7f06001d;
         public static final int cancelled=0x7f06001e;
         public static final int com_facebook_choose_friends=0x7f060011;
@@ -404,6 +406,7 @@ containing a value of this type.
         public static final int error=0x7f060024;
         public static final int exception=0x7f06002c;
         public static final int hello_user=0x7f060021;
+        public static final int login_with_facebook=0x7f060032;
         public static final int no_friends_selected=0x7f060028;
         public static final int no_place_selected=0x7f060029;
         public static final int ok=0x7f060020;
@@ -421,6 +424,7 @@ containing a value of this type.
         public static final int you_picked=0x7f060027;
     }
     public static final class style {
+        public static final int FacebookLoginButton=0x7f070003;
         public static final int com_facebook_loginview_default_style=0x7f070000;
         public static final int com_facebook_loginview_silver_style=0x7f070001;
         public static final int tooltip_bubble_text=0x7f070002;

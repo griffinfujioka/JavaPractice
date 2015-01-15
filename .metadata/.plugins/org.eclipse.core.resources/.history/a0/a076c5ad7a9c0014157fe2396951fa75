@@ -37,7 +37,8 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             facebook:confirm_logout="false"
-            facebook:fetch_user_info="true" />
+            facebook:fetch_user_info="true"
+            style="@styles/FacebookLoginButton" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -61,7 +62,7 @@
                 android:textColorHint="#BEBEBE"
                 android:inputType="text"
                 android:textColor="#fff"
-                android:textSize="18sp"
+                android:textSize="25sp"
                 android:fontFamily="sans-serif" />
 
             <EditText
@@ -74,7 +75,7 @@
                 android:textColorHint="#BEBEBE"
                 android:inputType="textPassword"
                 android:textColor="#fff"
-                android:textSize="18sp"
+                android:textSize="25sp"
                 android:fontFamily="sans-serif" />
 
             <Button

@@ -37,7 +37,8 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             facebook:confirm_logout="false"
-            facebook:fetch_user_info="true" />
+            facebook:fetch_user_info="true"
+            style="@style/FacebookLoginButton" />
 
         <LinearLayout
             android:layout_width="fill_parent"

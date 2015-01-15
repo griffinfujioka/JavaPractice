@@ -1,6 +1,5 @@
 <resources>
 
-    <!-- TODO: Clean up the ones you aren't using anymore.  -->
     <string name="app_name">fish</string>
 	<string name="cancelled">Cancelled</string>
     <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
@@ -22,5 +21,4 @@
     <string name="sign_in">Sign in</string>
     <string name="username_hint">username</string>
     <string name="password_hint">password</string>
-    <string name="login_with_facebook">Login with Facebook</string>
 </resources>
