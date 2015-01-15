@@ -129,14 +129,14 @@ public class MainActivity extends FragmentActivity {
             }
         });
         
-        fetchJsonDataButton = (Button) findViewById(R.id.fetchJsonDataButton);
-        fetchJsonDataButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-            	AsyncDataTask dataTask = new AsyncDataTask(); 
-            	dataTask.execute("");
-            }
-        });
-        
+//        fetchJsonDataButton = (Button) findViewById(R.id.fetchJsonDataButton);
+//        fetchJsonDataButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View view) {
+//            	AsyncDataTask dataTask = new AsyncDataTask(); 
+//            	dataTask.execute("");
+//            }
+//        });
+//        
         signUpButton = (Button) findViewById(R.id.signUpButton); 
         signUpButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -245,7 +245,7 @@ public class MainActivity extends FragmentActivity {
 
     private void updateUI() {
         Session session = Session.getActiveSession();
-        fetchJsonDataButton.setEnabled(true);
+        //fetchJsonDataButton.setEnabled(true);
     }
 
     @SuppressWarnings("incomplete-switch")
