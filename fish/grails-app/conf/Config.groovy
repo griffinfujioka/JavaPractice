@@ -90,8 +90,10 @@ environments {
         grails.logging.jul.usebridge = true
     }
     production {
-        grails.logging.jul.usebridge = false
-        grails.serverURL = "http://www.gpf.red"
+       grails.logging.jul.usebridge = false
+//        grails.serverURL = "http://www.gpf.red"
+	   grails.serverUrl = "http://Default-Environment-jhz4hc2q9m.elasticbeanstalk.com"
+		
     }
 }
 

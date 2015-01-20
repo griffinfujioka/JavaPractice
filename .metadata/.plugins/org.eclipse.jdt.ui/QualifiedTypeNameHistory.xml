@@ -26,7 +26,7 @@
 <fullyQualifiedTypeName name="org.json.JSONException"/>
 <fullyQualifiedTypeName name="org.apache.http.client.methods.HttpGet"/>
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
-<fullyQualifiedTypeName name="com.fish.android.R.id"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="org.apache.http.entity.BufferedHttpEntity"/>
+<fullyQualifiedTypeName name="com.fish.android.R.id"/>
 </qualifiedTypeNameHistroy>
