@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Yahoo! Sports Reader">
+	<meta name="author" content="Griffin Fujioka">
+	
+	<title>Yahoo! Sports Reader</title>
+	
+	<!-- css -->
+	<link rel="stylesheet"
+		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+	<div class="row-fluid">
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span3">
+		            <div class="well sidebar-nav">
+		                <ul class="nav nav-list">
+		                    <li class="nav-header"><a href="#Windows8Apps">Windows 8 apps</a></li>
+		                    <li><a href="#Archive">Archive</a></li>
+		                    <li><a href="#tweetMaps">tweetMaps</a></li>
+		                    <li><a href="#ChristmasCountdown">Christmas Countdown</a></li>
+		                    <li><a href="#CustomCountdown">Custom Countdown</a></li>
+		                    <li><a href="#WSUCougarFootball">WSU Cougar Football</a></li>
+		                    <li><a href="#DesignPatterns">Design Patterns</a></li>
+		                    <li><a href="#EZBaseConverter">EZ Base Converter</a></li>
+		                    <li><a href="#GraduationCountdown">Graduation Countdown</a></li>
+		                    <li class="nav-header"><a href="#WindowsPhoneApps">Windows Phone apps</a></li>
+		                    <li><a href="#Ideas">Ideas</a></li>
+		                    <li><a href="#WishList">Wish List</a></li>
+		                    <li><a href="#CaffeineCalculator">Caffeine Calculator</a></li>
+		                </ul>
+		            </div>
+		            <!--/.well -->
+		        </div>
+		        <!--/span-->	
+			</div>
+		</div>
+	</div>
+	
+	<!-- Navigation -->
+	<div id="navigation">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle"
+								data-toggle="collapse" data-target="#menu">
+								<i class="fa fa-bars"></i>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="menu">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active"><a href="#news">News</a></li>
+								<li><a href="#entertainment">Entertainment</a></li>
+								<li><a href="#technews">Tech News</a></li>
+							</ul>
+						</div>
+						<!-- /.Navbar-collapse -->
+
+					</div>
+				</div>
+			</div>
+			<!-- /.container -->
+		</nav>
+	</div>
+	<!-- /Navigation -->
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="footer-menu">
+						<li><a href="#">Back to Top</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 text-right">
+					<p>&copy;Copyright 2015 - Me.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Core JavaScript Files -->
+	<script src="js/jquery.min.js"></script>
+	<script
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/nivo-lightbox.min.js"></script>
+
+	<script src="js/custom.js"></script>
+	<script src="js/css3-animate-it.js"></script>
+
+</body>
+
+</html>

@@ -1,51 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Yahoo! News Reader</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Yahoo! Sports Reader">
+	<meta name="author" content="Griffin Fujioka">
+	
+	<title>Yahoo! Sports Reader</title>
+	
+	<!-- css -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
 
-
-<link rel="shortcut icon" href="/Content/images/favicon.ico"
-	type="image/x-icon">
-<link rel="icon" href="/Content/images/favicon.ico" type="image/x-icon">
 </head>
-<body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container" style="vertical-align: text-bottom">
-				<div class="nav-collapse collapse">
-					<ul class="nav nav-pills">
-						<li class="active"><a href="#"><span
-								class="glyphicon glyphicon-home"></span> News</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-user"></span>
-								Entertainment</a></li>
-						<li><a href="#"><span
-								class="glyphicon glyphicon-envelope"></span> Tech News</a></li>
+
+<body id="page-top" data-spy="scroll" >
+
+	<!-- Navigation -->
+	<div class="row-fluid">
+		<ul class="nav nav-pills">
+		    <li class="active"><a href="#"><span class="glyphicon glyphicon-education"></span>  News</a></li>
+		    <li><a href="#"><span class="glyphicon glyphicon-headphones"></span> Entertainment</a></li>
+		    <li><a href="#"><span class="glyphicon glyphicon-stats"></span> Tech News</a></li>
+		</ul>
+	</div>
+	<!-- /Navigation -->
+	
+	<!-- Content -->
+	<div class="row-fluid">
+	</div>
+	<!-- /Content -->
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="footer-menu">
+						<li><a href="#">Back to Top</a></li>
 					</ul>
+				</div>
+				<div class="col-md-6 text-right">
+					<p>&copy;Copyright 2015 - Me.</p>
 				</div>
 			</div>
 		</div>
-	</div>
+	</footer>
+	<!-- /Footer -->
 
-	<!-- Main hero unit  -->
-	<div class="hero-unit">
-		<h1>Griffin Fujioka</h1>
-		<br />
-		<h3>I am a Software Engineer from Seattle.</h3>
+	<!-- Core JavaScript Files -->
+	<script src="js/jquery.min.js"></script>
+	<script
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/nivo-lightbox.min.js"></script>
 
-		<p>After growing up in Issaquah, Washington, I graduated from
-			Washington State University in December 2013 with a B.S. in Computer
-			Science and minors in Math and MIS. After graduation I spent some
-			time traveling Asia before settling into a full-time position in
-			Seattle. Aside from building software I like reading, fishing,
-			bicycling, baseball, snowboarding, watching movies, German cars and
-			nearly any music that hits my ears and the company of my border
-			collie Belle.</p>
-
-	</div>
+	<script src="js/custom.js"></script>
+	<script src="js/css3-animate-it.js"></script>
 
 </body>
-</html>
 
+</html>
