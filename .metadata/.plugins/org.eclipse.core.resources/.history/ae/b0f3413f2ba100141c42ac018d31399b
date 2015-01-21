@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Yahoo! News Reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="shortcut icon" href="/Content/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Content/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container" style="vertical-align:text-bottom">
+                <div class="nav-collapse collapse">
+                    <ul class="nav nav-pills">
+					    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  News</a></li>
+					    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Entertainment</a></li>
+					    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Tech News</a></li>
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Main hero unit  -->
+<div class="hero-unit">
+    <h1>Griffin Fujioka</h1>
+    <br />
+    <h3>I am a Software Engineer from Seattle. </h3>
+
+    <p>After growing up in Issaquah, Washington, I graduated from Washington State University in December 2013 with a B.S. in Computer Science and minors in Math and MIS. After graduation I spent some time traveling Asia before settling into a full-time position in Seattle. Aside from building software I like reading, fishing, bicycling, baseball, snowboarding, watching movies, German cars and nearly any music that hits my ears and the company of my border collie Belle.</p>
+
+</div>
+    
+</body>
+</html>
+

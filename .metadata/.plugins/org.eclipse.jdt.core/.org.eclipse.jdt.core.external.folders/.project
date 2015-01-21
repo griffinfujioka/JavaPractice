@@ -24,5 +24,20 @@
 			<type>2</type>
 			<location>/Users/griffin/Downloads/ggts-bundle/ggts-3.6.3.RELEASE/plugins/org.grails.ide.eclipse.resources_3.6.3.201411271013-RELEASE/dsl-support</location>
 		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>/Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/YahooNewsReader/target/work/plugin-classes</location>
+		</link>
+		<link>
+			<name>.link4</name>
+			<type>2</type>
+			<location>/Users/griffin/.groovy/greclipse/global_dsld_support</location>
+		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>/Users/griffin/Downloads/ggts-bundle/ggts-3.6.3.RELEASE/plugins/org.codehaus.groovy_2.3.7.xx-201411241807-e44/plugin_dsld_support</location>
+		</link>
 	</linkedResources>
 </projectDescription>

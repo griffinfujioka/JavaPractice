@@ -9,10 +9,10 @@ class BootStrap {
 		def adminRole = new Role(authority: 'ROLE_ADMIN').save(flush: true)
 		def userRole = new Role(authority: 'ROLE_USER').save(flush: true)
 
-//		def testUser = new User(username: 'griffin', password: 'redr32')
-//		testUser.save(flush: true)
-//		UserRole.create testUser, adminRole, true
-//		UserRole.create(testUser, Role.findByAuthority('ROLE_FACEBOOK'))
+//		def admin = new User(username: 'admin', password: 'admin')
+//		admin.save(flush: true)
+//		UserRole.create admin, adminRole, true
+//		UserRole.create(admin, Role.findByAuthority('ROLE_FACEBOOK'))
 //		FacebookUser fbUser = new FacebookUser(
 //				uid: token.uid,
 //				accessToken: token.accessToken.accessToken,

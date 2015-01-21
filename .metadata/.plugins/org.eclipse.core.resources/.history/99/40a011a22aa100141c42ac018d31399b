@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Yahoo! News Reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="shortcut icon" href="/Content/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Content/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container" style="vertical-align:text-bottom">
+                <div class="nav-collapse collapse">
+                    <ul class="nav nav-pills">
+					    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+					    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+					    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Messages</a></li>
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+        
+        
+
+
+<body>
+    
+
+</body>
+
+<!-- Main hero unit  -->
+<div class="hero-unit">
+    <h1>Griffin Fujioka</h1>
+    <br />
+    <h3>I am a Software Engineer from Seattle. </h3>
+
+    <p>After growing up in Issaquah, Washington, I graduated from Washington State University in December 2013 with a B.S. in Computer Science and minors in Math and MIS. After graduation I spent some time traveling Asia before settling into a full-time position in Seattle. Aside from building software I like reading, fishing, bicycling, baseball, snowboarding, watching movies, German cars and nearly any music that hits my ears and the company of my border collie Belle.</p>
+
+</div>
+
+<!-- Example row of columns -->
+<div class="row-fluid">
+   <div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+            <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                    <li class="nav-header"><a href="#Windows8Apps">Windows 8 apps</a></li>
+                    <li><a href="#Archive">Archive</a></li>
+                    <li><a href="#tweetMaps">tweetMaps</a></li>
+                    <li><a href="#ChristmasCountdown">Christmas Countdown</a></li>
+                    <li><a href="#CustomCountdown">Custom Countdown</a></li>
+                    <li><a href="#WSUCougarFootball">WSU Cougar Football</a></li>
+                    <li><a href="#DesignPatterns">Design Patterns</a></li>
+                    <li><a href="#EZBaseConverter">EZ Base Converter</a></li>
+                    <li><a href="#GraduationCountdown">Graduation Countdown</a></li>
+                    <li class="nav-header"><a href="#WindowsPhoneApps">Windows Phone apps</a></li>
+                    <li><a href="#Ideas">Ideas</a></li>
+                    <li><a href="#WishList">Wish List</a></li>
+                    <li><a href="#CaffeineCalculator">Caffeine Calculator</a></li>
+                </ul>
+            </div>
+            <!--/.well -->
+        </div>
+        <!--/span-->
+        <div class="span9">
+            <div>
+                <h1>Portfolio</h1>
+                <br />
+                <p>During college I released a number of apps for Windows Phone and Windows 8. While I am still very passionate about mobile development, my professional career has involved more server-side code.</p>
+            </div>
+
+            <div id="Windows8Apps">
+                <h3>Windows 8 apps</h3>
+            </div>
+
+            <!-- row 1 -->
+            <div class="row-fluid">
+                <div id="Archive" class="span3">
+
+                    <h5>Archive</h5>
+                    <div class="imgWrap">
+                        <img src="/Content/images/app images/Archive.png" width="300" height="278" />
+                        <div class="popover bottom descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Archive</b></h3>
+                            <div class="popover-content">
+                                <p>Archive is a video-blogging service built for the WSU EECS Senior Design Project. The project entailed building a custom JSON-based REST API and client applications across iOS, Android, Windows 8 and web. The project placed 3rd at the WSU EECS Senior Design Banquet in Spring 2013. My main responsibility on this project was the Windows 8 client. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tweetMaps" class="span3">
+                    <h5>tweetMaps</h5>
+                    <div class="imgWrap">
+
+                        <a href="http://apps.microsoft.com/windows/en-US/app/tweetmaps/b451ab38-7019-4510-93bb-4121a2058802">
+                            <img src="/Content/images/app images/tweetMaps.png" width="300" height="278" alt="oops" /></a>
+
+                        <div class="popover bottom descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>tweetMaps</b></h3>
+                            <div class="popover-content">
+                                <p>tweetMaps is a Windows 8 Twitter client that's integrated with the Bing Maps API. The application allows users to view tweets and trending topics based on geographic location, which we believe to be an interesting way of harnessing Twitter data. I worked on the project with two friends, Matt Hintzke and David Heyduck, and we created the application for a hackathon put on by our university's ACM chapter. tweetMaps was published to the Windows Store on January 15th, 2013. For more information on tweetMaps, check us out on Facebook or Twitter.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="ChristmasCountdown" class="span3">
+                    <h5>Christmas Countdown</h5>
+                    <div class="imgWrap">
+                        <a href="http://apps.microsoft.com/windows/en-US/app/christmas-countdown-free/288494e0-8d29-459e-a44f-ee4431791685">
+                            <img src="/Content/images/app images/ChristmasCountdown.png" width="300" height="278" /></a>
+
+                        <div class="popover bottom descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Christmas Countdown</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    Christmas Countdown is a Windows 8 application that counts down the days, minutes, hours and seconds until Christmas while snow falls in the background.
+                                    <br />
+                                    <br />
+                                    Christmas Countdown was published in September 2012, before Windows 8 was released and just in time for the holiday season. Due to the timely release it experienced some success and was briefly featured as a top 100 app amongst entertainment apps. Artwork done by David Heyduck.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 -->
+            <div class="row-fluid">
+                <div id="CustomCountdown" class="span3">
+                    <h5>Custom Countdown</h5>
+                    <div class="imgWrap">
+
+
+                        <a href="http://apps.microsoft.com/windows/en-US/app/custom-countdown/ece695d4-05c2-4882-9000-8d15cf4b8171">
+                            <img src="/Content/images/app images/CustomCountdown.png" width="300" height="278" /></a>
+
+                        <div class="popover bottom descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Custom Countdown</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    Custom Countdown allows users to define their own date to countdown to and was published to the Windows Store in January 2013. 
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div id="CougarFootball" class="span3">
+                    <h5>WSU Cougar Football</h5>
+                    <div class="imgWrap">
+                        <img src="/Content/images/app images/CougarFootball.png" width="300" height="278" />
+
+                        <div class="popover bottom descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>WSU Cougar Football</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    The WSU Cougar Football app was created at a Microsoft Appathon and was generated by providing a few links in an Excel spreadsheet, then using a tool to generate a Windows 8 app from it. 
+                                    <br />
+                                    <br />
+                                    The app pulls the most recent content about the Cougs from Bing, Flickr, Twitter, YouTube and the National Weather Service. 
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="DesignPatterns" class="span3">
+                    <h5>Design Patterns</h5>
+                    <div class="imgWrap">
+                        <img src="/Content/images/app images/DesignPatterns.png" width="300" height="278" />
+
+                        <div class="popover top descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Design Patterns</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    A design patterns reference for Windows 8. Design Patterns was published in May 2013. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- end of row 2 -->
+
+            <!-- row 3 -->
+            <div class="row-fluid">
+                <div id="EZBaseConverter" class="span3">
+                    <h5>EZ Base Converter</h5>
+                    <div class="imgWrap">
+                        <a href="http://apps.microsoft.com/windows/en-US/app/my-percent-calculator/04b81e84-9f34-4316-8f1e-13419d1da89a">
+                            <img src="/Content/images/app images/EZBaseConverter.png" width="300" height="278" /></a>
+
+                        <div class="popover top descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>EZ Base Converter</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    EZ Base Converter converts between binary, decimal, hexadecimal and octal in real time. It was the first app I released for Windows 8 and was published in September 2012. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="GraduationCountdown" class="span3">
+                    <h5>Graduation Countdown</h5>
+                    <div class="imgWrap">
+                        <img src="/Content/images/app images/GraduationCountdown.png" width="300" height="278" />
+
+                        <div class="popover top descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Graduation Countdown</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    Countdown the days, hours, minutes and seconds until graduation - I know I am. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="PercentCalculator" class="span3">
+                    <h5>My Percent Calculator</h5>
+                    <div class="imgWrap">
+                        <a href="http://apps.microsoft.com/windows/en-US/app/my-percent-calculator/04b81e84-9f34-4316-8f1e-13419d1da89a">
+                            <img src="/Content/images/app images/PercentCalculator.png" width="300" height="278" /></a>
+
+                        <div class="popover top descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Percent Calculator</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    A percent calculator for all of the common types of percentages.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of row 3 -->
+
+            <div id="WindowsPhoneApps">
+                <h3>Windows Phone apps</h3>
+            </div>
+
+            <!-- row 4 -->
+            <div class="row-fluid">
+                <div id="Ideas" class="span3">
+                    <h5>Ideas</h5>
+                    <div class="imgWrap">
+                        <img src="/Content/images/app images/Ideas.png" width="300" height="278" />
+
+                        <div class="popover top descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Ideas</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    Ideas is a note taking application designed specifically for saving, refining and sharing software ideas. The app was created by the WSU Windows Development group and published to the Windows Phone marketplace in the summer of 2012. 
+                                    <br />
+                                    <br />
+
+                                    Ideas are stored in the form of a Title, Overview, set of System Requirements, set of Use Cases and a section for Notes. They were designed in this way to make them easily translated to UML diagrams and software documentation (i.e., use cases, class diagrams, requirements specification). 
+                                    <br />
+                                    <br />
+                                    Ideas for Windows 8 is being built and will be available on the Windows Store soon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="CaffeineCalculator" class="span3">
+                    <h5>Caffeine Calculator</h5>
+                    <div class="imgWrap">
+                        <img src="/Content/images/app images/CaffeineCalculator.png" width="300" height="278" />
+
+                        <div class="popover top descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Caffeine Calculator</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    Caffeine Calculator is an app for monitoring caffeine intake. The app comes equipped with a database of caffeinated drinks which users may modify to include their own drink choices. Users choose and save some caffeine limit (in mg) then enter the drinks they've consumed in order to monitor their caffeine intake. Caffeine calculator was the third app I released for Windows Phone and was released in April 2012. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="WishList" class="span3">
+                    <h5>Wish List</h5>
+                    <div class="imgWrap">
+                        <img src="/Content/images/app images/WishList.png" width="300" height="278" />
+
+                        <div class="popover top descriptionPopover">
+                            <div class="arrow"></div>
+                            <h3 style="background-color: white;" class="popover-title"><b>Wish List</b></h3>
+                            <div class="popover-content">
+                                <p>
+                                    A simple wish list which allows users to save a wish list including a reason for wanting a wish as well as an image to associate with the wish. I created the app when I was looking for a wish list for my phone but couldn't find one I liked. The app was published in April 2012. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+</div>
+</div>
+</div>
+
+        <hr>
+        <footer style="margin: 0px auto;">
+            <div class="container-fluid">
+                <div class="row-fluid" style="margin-top: 20px;">
+                        <a href="https://twitter.com/griffinfujioka" class="twitter-follow-button" data-show-count="false">Follow griffinfujioka</a>
+                        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                        <a href="https://www.github.com/griffinfujioka" class="fa fa-github fa-2x"></a>
+                        <a href="https://www.linkedin.com/pub/griffin-fujioka/19/12b/b59" class="fa fa-linkedin-square fa-2x"></a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="/js?v=0X3N63764czUHUCCC5Vvw6isoKelQAQTq8ajv3YlC7w1"></script>
+
+    
+</body>
+</html>
+
