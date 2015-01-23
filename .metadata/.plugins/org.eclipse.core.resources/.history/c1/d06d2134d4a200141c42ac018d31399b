@@ -15,7 +15,8 @@
 	</span></p>
 </div>
  
-<script src="js/feeds.js"></script>
+ <script src="lib/angular-0.9.19.min.js" ng:autobind></script>
+<script src="feeds.js"></script>
 	
 </body>
 </html>

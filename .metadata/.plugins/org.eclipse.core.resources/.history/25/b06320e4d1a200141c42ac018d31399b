@@ -1,6 +1,6 @@
 'use strict';
 
-var App = angular.module('YahooNewsReader', []);
+var App = angular.module('RSSFeedApp', []);
 
 App.controller("FeedCtrl", ['$scope','FeedService', function ($scope,Feed) {    
     $scope.loadButonText="Load";

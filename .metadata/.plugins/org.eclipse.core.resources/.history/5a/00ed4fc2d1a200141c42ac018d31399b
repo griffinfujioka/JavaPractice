@@ -1,26 +1,4 @@
 <!DOCTYPE html>
-<html ng-app='feedModule'>
-<head>
-	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
-</head>
- 
-<body ng-controller='FeedCtrl'>
- 
-<div ng-repeat="feed in feeds | orderBy:'title'">
-	<h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
-	<p><span ng-repeat="item in feed.entries">
-		<a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
-	</span></p>
-</div>
- 
-<script src="js/feeds.js"></script>
-	
-</body>
-</html>
-
-<%--<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -34,14 +12,10 @@
 	<!-- css -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link href="css/style.css" rel="stylesheet">
-	
-	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
 
 </head>
 
-<body id="page-top" data-spy="scroll" ng-controller='FeedCtrl' >
+<body id="page-top" data-spy="scroll" >
 
 	<!-- Navigation -->
 	<div class="row-fluid">
@@ -55,6 +29,7 @@
 	
 	<!-- Content -->
 	 <div class="row-fluid">
+        <h4>Feed Reader using AngularJS</h4>
         <form>
             <div class="input-prepend span12">
           <div class="btn-group">
@@ -124,9 +99,7 @@
 	<script src="js/custom.js"></script>
 	<script src="js/css3-animate-it.js"></script>
 	<script src="js/YahooNewsReader.js"></script>
-	<script src="js/feeds.js"></script>
 
 </body>
 
 </html>
---%>
