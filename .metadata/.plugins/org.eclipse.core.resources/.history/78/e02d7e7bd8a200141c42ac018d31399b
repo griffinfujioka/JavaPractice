@@ -23,6 +23,10 @@ angular.module('feedModule', ['ngResource'])
 			}
 			return feeds;
 		};
+		
+		this.getTech = function() {
+			
+		};
 	})
 	.controller('FeedCtrl', function ($scope, FeedList) {
 		$scope.feeds = FeedList.get();
@@ -35,5 +39,9 @@ angular.module('feedModule', ['ngResource'])
 	            $scope.loadButonText=angular.element(e.target).text();
 	            $scope.feeds=res.data.responseData.feed.entries;
 	        });
+	    }
+	    
+	    $scope.getTechFeed() { 
+	    	
 	    }
 	});

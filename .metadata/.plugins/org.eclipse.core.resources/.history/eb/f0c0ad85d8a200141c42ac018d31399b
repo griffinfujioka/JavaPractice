@@ -23,6 +23,15 @@ angular.module('feedModule', ['ngResource'])
 			}
 			return feeds;
 		};
+		
+		this.getTech = function() {
+			FeedLoader.fetch(q: "http://news.yahoo.com/rss/tech", num:10, {} function(data) { 
+				var feed = data.responseData.feed; 
+				feeds.push(feed); 
+			}
+			
+			return feeds; 
+		};
 	})
 	.controller('FeedCtrl', function ($scope, FeedList) {
 		$scope.feeds = FeedList.get();
@@ -35,5 +44,9 @@ angular.module('feedModule', ['ngResource'])
 	            $scope.loadButonText=angular.element(e.target).text();
 	            $scope.feeds=res.data.responseData.feed.entries;
 	        });
+	    }
+	    
+	    $scope.getTechFeed() { 
+	    	
 	    }
 	});

@@ -36,4 +36,8 @@ angular.module('feedModule', ['ngResource'])
 	            $scope.feeds=res.data.responseData.feed.entries;
 	        });
 	    }
+	    
+	    $scope.getTechFeed() { 
+	    	FeedList.getTech(); 
+	    }
 	});
