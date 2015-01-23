@@ -10,8 +10,8 @@ angular.module('feedModule', ['ngResource'])
 		this.get = function() {
 			var feedSources = [
 				{title: 'Sports', url: 'http://news.yahoo.com/rss/sports'},
-				{title: 'Entertainment', url: 'http://news.yahoo.com/rss/entertainment'},
-				{title: 'Tech', url: 'http://news.yahoo.com/rss/entertainment'},
+				{title: 'Tweakers', url: 'http://feeds.feedburner.com/tweakers/mixed'},
+				{title: 'Wired', url: 'http://feeds.wired.com/wired/index'},
 			];
 			if (feeds.length === 0) {
 				for (var i=0; i<feedSources.length; i++) {

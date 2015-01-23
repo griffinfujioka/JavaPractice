@@ -9,9 +9,9 @@ angular.module('feedModule', ['ngResource'])
 	.service('FeedList', function ($rootScope, FeedLoader) {
 		this.get = function() {
 			var feedSources = [
-				{title: 'Sports', url: 'http://news.yahoo.com/rss/sports'},
-				{title: 'Entertainment', url: 'http://news.yahoo.com/rss/entertainment'},
-				{title: 'Tech', url: 'http://news.yahoo.com/rss/entertainment'},
+				{title: 'Slashdot', url: 'http://rss.slashdot.org/Slashdot/slashdot'},
+				{title: 'Tweakers', url: 'http://feeds.feedburner.com/tweakers/mixed'},
+				{title: 'Wired', url: 'http://feeds.wired.com/wired/index'},
 			];
 			if (feeds.length === 0) {
 				for (var i=0; i<feedSources.length; i++) {
@@ -29,11 +29,4 @@ angular.module('feedModule', ['ngResource'])
 		$scope.$on('FeedList', function (event, data) {
 			$scope.feeds = data;
 		});
-		$scope.loadButonText="Load";
-	    $scope.loadFeed=function(e){        
-	        Feed.parseFeed($scope.feedSrc).then(function(res){
-	            $scope.loadButonText=angular.element(e.target).text();
-	            $scope.feeds=res.data.responseData.feed.entries;
-	        });
-	    }
 	});

@@ -11,7 +11,7 @@ angular.module('feedModule', ['ngResource'])
 			var feedSources = [
 				{title: 'Sports', url: 'http://news.yahoo.com/rss/sports'},
 				{title: 'Entertainment', url: 'http://news.yahoo.com/rss/entertainment'},
-				{title: 'Tech', url: 'http://news.yahoo.com/rss/entertainment'},
+				{title: 'Tech', url: 'http://feeds.wired.com/wired/index'},
 			];
 			if (feeds.length === 0) {
 				for (var i=0; i<feedSources.length; i++) {
