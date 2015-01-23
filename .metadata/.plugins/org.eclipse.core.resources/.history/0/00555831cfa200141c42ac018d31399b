@@ -1,0 +1,2 @@
+
+function parseRSS(url, container) { }
