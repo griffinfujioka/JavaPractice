@@ -19,20 +19,20 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" ng-controller='FeedCtrl' >
+<body id="page-top" data-spy="scroll" >
 
 	<!-- Navigation -->
-	<div class="row-fluid">
+	<div class="row-fluid" ng-controller='NavCtrl'>
 		<ul class="nav nav-pills">
-		    <li class="active"><a href="#"><span class="glyphicon glyphicon-education"></span>  News</a></li>
-		    <li><a href="#"><span class="glyphicon glyphicon-headphones"></span> Entertainment</a></li>
-		    <li><a href="#"><span class="glyphicon glyphicon-stats"></span> Tech News</a></li>
+		    <li ng-class="{ active: isActive('#news')}"><a href="#news"><span class="glyphicon glyphicon-education"></span> News</a></li>
+		    <li ng-class="{ active: isActive('#entertainment')}"><a href="#entertainment"><span class="glyphicon glyphicon-headphones"></span> Entertainment</a></li>
+		    <li ng-class="{ active: isActive('#tech')}"><a href="#tech"><span class="glyphicon glyphicon-stats"></span> Technology</a></li>
 		</ul>
 	</div>
 	<!-- /Navigation -->
 	
 	<!-- Content -->
-	<div ng-repeat="feed in feeds | orderBy:'title'">
+	<div ng-controller='FeedCtrl' ng-repeat="feed in feeds | orderBy:'title'">
 		<h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
 		<p><span ng-repeat="item in feed.entries">
 			<a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
@@ -66,7 +66,8 @@
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/feeds.js"></script>
-
+	<script src="js/nav.js"></script>
+	
 </body>
 
 </html>

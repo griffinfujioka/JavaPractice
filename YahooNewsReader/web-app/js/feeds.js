@@ -23,17 +23,12 @@ angular.module('feedModule', ['ngResource'])
 			}
 			return feeds;
 		};
+		
+
 	})
 	.controller('FeedCtrl', function ($scope, FeedList) {
 		$scope.feeds = FeedList.get();
 		$scope.$on('FeedList', function (event, data) {
 			$scope.feeds = data;
 		});
-		$scope.loadButonText="Load";
-	    $scope.loadFeed=function(e){        
-	        Feed.parseFeed($scope.feedSrc).then(function(res){
-	            $scope.loadButonText=angular.element(e.target).text();
-	            $scope.feeds=res.data.responseData.feed.entries;
-	        });
-	    }
 	});
