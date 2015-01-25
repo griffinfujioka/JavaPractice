@@ -9703,3 +9703,30 @@ java.net.UnknownHostException: dist.springsource.com: nodename nor servname prov
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:40:37.952
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:40:53.146
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:41:09.224
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:46:47.219
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:46:50.447
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:46:51.678
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:47:07.558
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:47:25.919
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist
+
+!ENTRY org.eclipse.wst.jsdt.core 4 969 2015-01-24 20:47:30.833
+!MESSAGE feeds.js [in  [in /Users/griffin/SkyDrive/Layer 2/TEALS/JavaPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js]] does not exist

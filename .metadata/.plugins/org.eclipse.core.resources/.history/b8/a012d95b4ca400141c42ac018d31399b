@@ -1,0 +1,88 @@
+var feeds = [];
+var isNewsDisplayed = true; 
+var isEntertainmentDisplayed = true; 
+var isTechDisplayed = true; 
+
+var newsFeeds = []; 
+var entertainmentFeed = []; 
+var techFeed = []; 
+
+
+var app = angular.module('feedModule', ['ngResource' ,'services']); 
+var services = angular.module('services',[]);
+
+app.factory('FeedLoader', function ($resource) {
+	return $resource('http://ajax.googleapis.com/ajax/services/feed/load', {}, {
+		fetch: { method: 'JSONP', params: {v: '1.0', callback: 'JSON_CALLBACK'} }
+	});
+})
+
+services.service('FeedList', function ($rootScope, FeedLoader) {
+	this.get = function() {
+		var feedSources = [
+		                   {title: 'Sports', url: 'http://news.yahoo.com/rss/sports'},
+		                   {title: 'Entertainment', url: 'http://news.yahoo.com/rss/entertainment'},
+		                   {title: 'Tech', url: 'http://news.yahoo.com/rss/tech'}
+		        ]; 
+
+		if (feeds.length === 0) {
+			for (var i=0; i<feedSources.length; i++) {
+				FeedLoader.fetch({q: feedSources[i].url, num: 10}, {}, function (data) {
+					var feed = data.responseData.feed;
+					feeds.push(feed);
+				});
+			}
+		}
+		return feeds;
+	};
+	
+	this.getNewsFeed = function() {
+		var feedSources = [
+		                   {title: 'Sports', url: 'http://news.yahoo.com/rss/sports'}
+		        ]; 
+
+		if (feeds.length === 0) {
+			for (var i=0; i<feedSources.length; i++) {
+				FeedLoader.fetch({q: feedSources[i].url, num: 10}, {}, function (data) {
+					var feed = data.responseData.feed;
+					newsFeed.push(feed);
+				});
+			}
+		}
+		return feeds;
+	}; 
+
+})
+
+app.controller('FeedCtrl', function ($scope, $location, FeedList) {
+	$scope.news = function() { 
+		$scope.isNewsDisplayed = true; 
+		$scope.isEntertainmentDisplayed = false; 
+		$scope.isTechDisplayed = false; 
+		$scope.feeds = FeedList.get(); 
+	};
+	
+	$scope.entertainment = function() { 
+		$scope.isNewsDisplayed = false; 
+		$scope.isEntertainmentDisplayed = true; 
+		$scope.isTechDisplayed = false; 
+		$scope.feeds = FeedList.get(); 
+	};
+	
+	$scope.tech = function() {
+		$scope.isNewsDisplayed = false; 
+		$scope.isEntertainmentDisplayed = false; 
+		$scope.isTechDisplayed = true; 
+		$scope.feeds = FeedList.get(); 
+	}; 
+	
+	$scope.feeds = FeedList.get();
+	$scope.newsFeed = FeedList.getNewsFeed(); 
+	
+	$scope.$on('FeedList', function (event, data) {
+		$scope.feeds = data;
+	});
+	$scope.isActive = function (viewLocation) { 
+        return viewLocation === $location.path();
+    };
+})

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='feedModule'>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Yahoo! Sports Reader">
+	<meta name="author" content="Griffin Fujioka">
+	
+	<title>Yahoo! RSS Reader</title>
+	
+	<!-- css -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" ng-controller='FeedCtrl' ng-init="news()">
+
+	<!-- Navigation -->
+	<div class="row-fluid" >
+		<ul class="nav nav-pills">
+		    <li ng-class="{ active: isActive('#')}" ng-click="news()" ><a href="#"><span class="glyphicon glyphicon-education"></span> News</a></li>
+		    <li ng-class="{ active: isActive('#entertainment')}" ng-click="entertainment()"><a href="#entertainment"><span class="glyphicon glyphicon-headphones"></span> Entertainment</a></li>
+		    <li ng-class="{ active: isActive('#tech')}" ng-click="tech()"><a href="#tech"><span class="glyphicon glyphicon-stats"></span> Technology</a></li>
+		</ul>
+	</div>
+	<!-- /Navigation -->
+	
+	<!-- Content -->
+	<div ng-show="isNewsDisplayed" ng-repeat="feed in newsFeeds | orderBy:'title'">
+			<h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
+			<p><span ng-repeat="item in feed.entries">
+				<a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
+			</span></p>
+	</div>
+	
+	<div ng-show="isEntertainmentDisplayed" ng-repeat="feed in entertainmentFeeds | orderBy:'title'">
+			<h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
+			<p><span ng-repeat="item in feed.entries">
+				<a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
+			</span></p>
+	</div>
+	
+	<div ng-show="isTechDisplayed" ng-repeat="feed in techFeeds | orderBy:'title'">
+			<h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
+			<p><span ng-repeat="item in feed.entries">
+				<a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
+			</span></p>
+	</div>
+	<!-- /Content -->
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="footer-menu">
+						<li><a href="#">Back to Top</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 text-right">
+					<p>&copy;Copyright 2015 - Me.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Core JavaScript Files -->
+	<script src="js/feeds.js"></script>
+	
+</body>
+
+</html>
