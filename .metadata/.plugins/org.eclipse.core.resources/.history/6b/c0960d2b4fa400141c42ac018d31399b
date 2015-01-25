@@ -1,3 +1,4 @@
+var feeds = [];
 var isNewsDisplayed = true; 
 var isEntertainmentDisplayed = true; 
 var isTechDisplayed = true; 
@@ -17,6 +18,24 @@ app.factory('FeedLoader', function ($resource) {
 })
 
 services.service('FeedList', function ($rootScope, FeedLoader) {
+	this.get = function() {
+		var feedSources = [
+		                   {title: 'Sports', url: 'http://news.yahoo.com/rss/sports'},
+		                   {title: 'Entertainment', url: 'http://news.yahoo.com/rss/entertainment'},
+		                   {title: 'Tech', url: 'http://news.yahoo.com/rss/tech'}
+		        ]; 
+
+		if (feeds.length === 0) {
+			for (var i=0; i<feedSources.length; i++) {
+				FeedLoader.fetch({q: feedSources[i].url, num: 10}, {}, function (data) {
+					var feed = data.responseData.feed;
+					feeds.push(feed);
+				});
+			}
+		}
+		return feeds;
+	};
+	
 	this.getNewsFeeds = function() {
 		var feedSources = [
 		                   {title: 'Sports', url: 'http://news.yahoo.com/rss/sports'}
@@ -86,6 +105,7 @@ app.controller('FeedCtrl', function ($scope, $location, FeedList) {
 		$scope.isTechDisplayed = true; 
 	}; 
 	
+	$scope.feeds = FeedList.get();
 	$scope.newsFeeds = FeedList.getNewsFeeds(); 
 	$scope.entertainmentFeeds = FeedList.getEntertainmentFeeds(); 
 	$scope.techFeeds = FeedList.getTechFeeds(); 

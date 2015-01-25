@@ -26,7 +26,7 @@
 	<!-- Navigation -->
 	<div class="row-fluid" >
 		<ul class="nav nav-pills">
-		    <li ng-class="{ active: isActive('#')}" ng-click="news()" ><a href="#"><span class="glyphicon glyphicon-education"></span> Sports</a></li>
+		    <li ng-class="{ active: isActive('#')}" ng-click="news()" ><a href="#"><span class="glyphicon glyphicon-education"></span> News</a></li>
 		    <li ng-class="{ active: isActive('#entertainment')}" ng-click="entertainment()"><a href="#entertainment"><span class="glyphicon glyphicon-headphones"></span> Entertainment</a></li>
 		    <li ng-class="{ active: isActive('#tech')}" ng-click="tech()"><a href="#tech"><span class="glyphicon glyphicon-stats"></span> Technology</a></li>
 		</ul>
