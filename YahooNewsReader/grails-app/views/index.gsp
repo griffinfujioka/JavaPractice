@@ -16,15 +16,16 @@
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 </head>
 
-<body id="page-top" data-spy="scroll" >
+<body id="page-top" data-spy="scroll" ng-controller='FeedCtrl'>
 
 	<!-- Navigation -->
-	<div class="row-fluid" ng-controller='NavCtrl'>
+	<div class="row-fluid" >
 		<ul class="nav nav-pills">
-		    <li ng-class="{ active: isActive('#news')}"><a href="#news"><span class="glyphicon glyphicon-education"></span> News</a></li>
+		    <li ng-class="{ active: isActive('#news')}" ><a href="#news"><span class="glyphicon glyphicon-education"></span> News</a></li>
 		    <li ng-class="{ active: isActive('#entertainment')}"><a href="#entertainment"><span class="glyphicon glyphicon-headphones"></span> Entertainment</a></li>
 		    <li ng-class="{ active: isActive('#tech')}"><a href="#tech"><span class="glyphicon glyphicon-stats"></span> Technology</a></li>
 		</ul>
@@ -32,11 +33,14 @@
 	<!-- /Navigation -->
 	
 	<!-- Content -->
-	<div ng-controller='FeedCtrl' ng-repeat="feed in feeds | orderBy:'title'">
-		<h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
-		<p><span ng-repeat="item in feed.entries">
-			<a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
-		</span></p>
+	<div ng-repeat="feed in feeds | orderBy:'title'">
+			<h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
+			<p><span ng-repeat="item in feed.entries">
+				<a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
+			</span></p>
+	</div>
+	<div ng-show="isActive('#/news')">
+		<p>News</p>
 	</div>
 	<!-- /Content -->
 
@@ -59,14 +63,13 @@
 	<!-- /Footer -->
 
 	<!-- Core JavaScript Files -->
-	<script src="js/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script src="js/jquery.sticky.js"></script>
+	<%--<script src="js/jquery.min.js"></script>
+	--%><script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<%--<script src="js/jquery.sticky.js"></script>
 	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/jquery.appear.js"></script>
-	<script src="js/feeds.js"></script>
-	<script src="js/nav.js"></script>
+	--%><script src="js/feeds.js"></script>
 	
 </body>
 
