@@ -8227,3 +8227,4 @@ n:1885:grails/util/PluginBuildSettings$getPluginDirectories
 n:1818:grails/util/BuildSettings$getBaseDir
 n:2013:grails/util/PluginBuildSettings$getPluginInfo$0
 n:3167:BuildConfig$_run_closure1_closure5
+n:1900:grails/util/PluginBuildSettings$getPluginSourceDirectories$13

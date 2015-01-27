@@ -63,7 +63,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<ul class="footer-menu">
-						<li><a href="#">Back to Top</a></li>
+						<li ng-click="refresh()"><a href="#"><span class="glyphicon glyphicon-refresh"></span> {{currentTab}}</a></li>
 					</ul>
 				</div>
 				<div class="col-md-6 text-right">

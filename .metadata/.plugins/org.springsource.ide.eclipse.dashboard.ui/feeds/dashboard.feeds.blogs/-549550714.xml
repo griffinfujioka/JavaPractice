@@ -5,7 +5,76 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2015-01-20T19:14:00Z</updated>
+  <updated>2015-01-26T01:21:00Z</updated>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: Groovy for System Administrators</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/01/26/springone2gx-2014-replay-groovy-for-system-administrators" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-01-09:1928</id>
+    <updated>2015-01-26T01:21:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
+&lt;p&gt;Speaker: Dan Woods, NetFlix &lt;/p&gt;
+&lt;p&gt;More Groovy Track &lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/4pieter-springone2gx2014groovysysadmins"&gt;http://www.slideshare.net/SpringCentral/4pieter-springone2gx2014groovysysadmins &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Enterprise Operations is seeing a shift in the management paradigm of infrastructure, from the more-traditional server-centric design, to an approach that leverages the application stack as the custodian for administration. &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="560" height="315" src="//www.youtube.com/embed/MzUvuQqVm14" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: Fastest Servlets in the West?</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/01/26/springone2gx-2014-replay-fastest-servlets-in-the-west" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-01-09:1927</id>
+    <updated>2015-01-26T01:18:00Z</updated>
+    <content type="html">&lt;p&gt;Fastest Servlets in the West?&lt;br/&gt;&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;&lt;br/&gt;&lt;p&gt;Speakers: Stuart Willliams, Daniel Mikusa &lt;/p&gt;&lt;br/&gt;&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/williams-fastest-servlets-in-the-west"&gt;&lt;a href="http://www.slideshare.net/SpringCentral/williams-fastest-servlets-in-the-west"&gt;http://www.slideshare.net/SpringCentral/williams-fastest-servlets-in-the-west&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt; Applied Spring Track&lt;/p&gt;&lt;br/&gt;&lt;p&gt; The venerable Servlet Container still has some performance tricks up its sleeve - this talk will demonstrate Apache Tomcat&amp;rsquo;s stability under high load, describe some do&amp;rsquo;s (and some don&amp;rsquo;ts!), explain how to performance test a Servlet-based application, troubleshoot and tune the container and your application and compare the performance characteristics of the different Tomcat connectors. The presenters will share their combined experience supporting real Tomcat applications for over 20 years and show how a few small changes can make a big, big difference. &lt;/p&gt;&lt;br/&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;br/&gt; &lt;iframe width="560" height="315" src="//www.youtube.com/embed/uMtYcWB7Z4s" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;/p&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: Booting up Spring Social</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/01/26/springone2gx-2014-replay-booting-up-spring-social" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-01-09:1926</id>
+    <updated>2015-01-26T01:16:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
+&lt;p&gt;Speaker: Craig Walls &lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/booting-up-spring-social"&gt;http://www.slideshare.net/SpringCentral/booting-up-spring-social&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Applied Spring Track &lt;/p&gt;
+&lt;p&gt;In recent years, people are using social networks like Facebook and Twitter to connect, meet, and share experiences and ideas. But it's not just people making connections; modern applications are also leveraging the APIs provided by the social networks to connect with their users and customers. It's hard to find applications these days that aren't somehow connected to their users via social APIs. Spring Social is an extension to the Spring Framework that enables you to create applications that connect with APIs. With it, your application can offer social login, learn about its users' interests, and inject itself into their social graph. In this session, we'll take a look at the latest that Spring Social has to offer, including integration with Spring Security, automatic reconnect, and a dramatically simpler configuration model using Spring Boot. &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="560" height="315" src="//www.youtube.com/embed/FGksai2vCvA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: Hadoop 201 -- Deeper into the Elephant</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/01/26/springone2gx-2014-replay-hadoop-201-deeper-into-the-elephant" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-01-09:1925</id>
+    <updated>2015-01-26T01:13:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
+&lt;p&gt;Speaker: Roman Shaposhnik &lt;/p&gt;
+&lt;p&gt;Big Data Track &lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/hadoop-201-deeper-into-the-elephant"&gt;http://www.slideshare.net/SpringCentral/hadoop-201-deeper-into-the-elephant &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This session expands on the previous year's &amp;quot;Hadoop: Just the Basics for Big Data Rookies&amp;quot;, diving deeper into the details of key Apache Hadoop projects. We will start with a brief recap of HDFS and MapReduce, then discuss more advanced features of HDFS, in addition to how YARN has enabled businesses to massively scale their systems beyond what was previously possible. We will then discuss Apache HBase, the non-relational database modeled after Google's BIg table, review the data model, architecture, and common use cases. By the end of this session, you will learn how these three core Hadoop projects are used to solve even the most challenging Big Data problems.&#xD;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="560" height="315" src="//www.youtube.com/embed/IcuTdJgUFmo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - January 20th, 2015</title>
     <link rel="alternate" href="https://spring.io/blog/2015/01/20/this-week-in-spring-january-20th-2015" />
@@ -664,77 +733,6 @@ class Bookmark {&#xD;
 &lt;p&gt;Data / Integration Track &lt;/p&gt;
 &lt;p&gt;There have been 2 major releases of Spring Integration since the last SpringOne 2GX. The 3.0 release added a number of important new components and provided extensive improvements to SpEL support enabling much richer SpEL processing. The 4.0 release added more components and extensive support for annotation-based config, reducing or even eliminating the need for XML configuration. It also laid the groundwork for the Java DSL extension. In this session we will examine many of these new features in detail. It will be mostly hands-on demonstration and code walk throughs. &lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;pre&gt;&lt;iframe width="560" height="315" src="//www.youtube.com/embed/TSW33RXoJNc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>SpringOne2GX 2014 Replay: Caching and Messaging Improvements in Spring Framework 4.1</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/01/14/springone2gx-2014-replay-caching-and-messaging-improvements-in-spring-framework-4-1" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2015-01-09:1917</id>
-    <updated>2015-01-14T01:27:00Z</updated>
-    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
-&lt;p&gt;Speakers:Juergen Hoeller, Stéphane Nicoll &lt;/p&gt;
-&lt;p&gt;Core Spring Track &lt;/p&gt;
-&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/201409-springonecachingmessaging"&gt;http://www.slideshare.net/SpringCentral/201409-springonecachingmessaging&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;This session showcases major new features along the lines of two key themes in Spring Framework 4.1: We’ll start with numerous improvements around the caching abstraction, as requested by the community, including the support for JCache (JSR-107) standard annotations. We’ll then move on to messaging-related features such as annotated JMS listener endpoints with flexible method signatures, using the messaging abstraction introduced in Spring Framework 4.0 and therefore aligning our core JMS support with our STOMP endpoint style.&lt;/p&gt;&lt;p&gt;&lt;pre&gt;&lt;iframe width="560" height="315" src="//www.youtube.com/embed/zKQrMdB6B08" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>SpringOne2GX 2014 Replay: From 0 to Spring Security 4.0</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/01/14/springone2gx-2014-replay-from-0-to-spring-security-4-0" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2015-01-09:1918</id>
-    <updated>2015-01-14T01:26:00Z</updated>
-    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
-&lt;p&gt;Speaker: Rob Winch &lt;/p&gt;
-&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/spring-security0to40-41084141"&gt;http://www.slideshare.net/SpringCentral/spring-security0to40-41084141&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;Core Spring Track &lt;/p&gt;
-&lt;p&gt;Spring Security is a framework that focuses on providing both authentication and authorization to Java applications. Like all Spring projects, the real power of Spring Security is found in how easily it can be extended to meet custom requirements. In this presentation Rob will start with an insecure application and incrementally Spring Security 4 to demonstrate how easily you can secure your application. Throughout the presentation, new features found in Spring Security 4 will be highlighted. Whether you are new to Spring Security or are wanting to learn what is new in Spring Security 4, this presentation is a must!&lt;/p&gt;&lt;p&gt;&lt;pre&gt;&lt;iframe width="560" height="315" src="//www.youtube.com/embed/TjlDbIIJBi8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>SpringOne2GX 2014 Replay: Spring Framework on Java 8</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/01/14/springone2gx-2014-replay-spring-framework-on-java-8" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2015-01-09:1919</id>
-    <updated>2015-01-14T01:25:00Z</updated>
-    <content type="html">&lt;p&gt;Speakers:Juergen Hoeller &lt;/p&gt;
-&lt;p&gt;Core Spring Track &lt;/p&gt;
-&lt;p&gt;Slides:&lt;a href="http://www.slideshare.net/SpringCentral/spring-on-java-8"&gt; http://www.slideshare.net/SpringCentral/spring-on-java-8 &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Spring has a track record of providing dedicated support for new Java generations in a timely fashion, and now it’s right about time to go Java 8: With Spring Framework 4.0, we're providing in-depth support for all relevant OpenJDK 8 features, including lambda expressions, JSR-310 Date and Time, parameter name discovery, and java.util.concurrent enhancements. This talk will illustrate basic Spring Framework 4.0 concepts, and selected Java 8 features within Spring's programming model, exploring the impact on application architectures. &lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;pre&gt;&lt;iframe width="560" height="315" src="//www.youtube.com/embed/-_aWK8T_YMI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - January 13th, 2015</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/01/14/this-week-in-spring-january-13th-2015" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2015-01-14:1930</id>
-    <updated>2015-01-14T01:24:22Z</updated>
-    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;. We&amp;rsquo;ve got a lot to talk about. Our own &lt;a href="https://twitter.com/pieterhumphrey"&gt;Pieter Humphrey&lt;/a&gt; has been tirelessly working to get the replays of the SpringOne2GX 2014 show available online and there are a &lt;em&gt;slew&lt;/em&gt; of them this week! What a win!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The good Dr. Syer, former lead of Spring Batch, co-lead of Spring Boot, Spring Cloud and Spring Security OAuth, and a rockstar to various Spring projects including Spring itself, over the years, has kicked off a series of posts on very practical matters related to securing Angular.js applications with Spring. The first one, &lt;a href="https://spring.io/blog/2015/01/12/spring-and-angular-js-a-secure-single-page-application"&gt;Spring and Angular JS: A Secure Single Page Application&lt;/a&gt;, introduces the basics of connecting an Angular.js-based client to a backend API. The second, &lt;a href="https://spring.io/blog/2015/01/12/the-login-page-angular-js-and-spring-security-part-ii"&gt;&lt;em&gt;The Login Page: Angular JS and Spring Security Part II&lt;/em&gt;&lt;/a&gt;, introduces the login form. Bookmark this series!&lt;/li&gt;
-  &lt;li&gt;The amazing, sleep-intolerant, &lt;a href="https://spring.io/blog/2015/01/08/spring-session-1-0-0-release"&gt;Rob Winch has just announced Spring Session 1.0&lt;/a&gt;. Spring Session, for those who&amp;rsquo;ve not been paying attention, is a drop in proxy API for the standard Servlet HTTP Session API. Install it, and then delegate HTTP session persistence to other backend implementations like Redis. This is ideal for a lot of reasons: if you are using a Java EE application server and want to scale out session replication, you can use an engine that was better designed for it. It&amp;rsquo;s a safe bet that the team behind Cassandra and Redis have thought about data replication more than the team behind Glassfish, isn&amp;rsquo;t it? If you&amp;rsquo;re deploying your application to a PaaS like Cloud Foundry or Heroku, where session replication isn&amp;rsquo;t enabled by default, then this gives you an easy way to add it, and to do so in a manner that&amp;rsquo;s consistant from one environment to another.&lt;/li&gt;
-  &lt;li&gt;I put together a &lt;a href="https://spring.io/blog/2015/01/13/configuring-it-all-out-or-12-factor-app-style-configuration-with-spring"&gt;blog on how Spring supports 12-Factor application style &lt;em&gt;configuration&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Our pal Nicolas Frankel is at it again, this time with a nice post on using &lt;a href="http://blog.frankel.ch/spring-profiles-or-maven-profiles"&gt;Spring&amp;rsquo;s profiles and Maven&amp;rsquo;s profiles&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2015/01/08/spring-boot-1-2-1-released"&gt;Spring Boot 1.2.1, mostly a maintenance release, has just been released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out this SpringOne2GX 2014 replay of Janne Valkealahti&amp;rsquo;s talk, &lt;a href="https://spring.io/blog/2015/01/08/springone2gx-2014-replay-painless-build-and-deploy-for-yarn-applications-with-spring"&gt;&lt;em&gt;Painless Build and Deploy for YARN Applications with Spring&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out Groovy ninja Cedric Champeau&amp;rsquo;s SpringOne2GX 2014 talk, &lt;a href="https://spring.io/blog/2015/01/08/springone2gx-2014-replay-android-and-groovy-a-winning-pair"&gt;Android and Groovy: a Winning Pair&lt;/a&gt;. This talk is hot off the heels of his announcement of support for Groovy on Android, immediately after Apple announced Swift - a Groovy-like language for iOS. Naturally, it gained a &lt;em&gt;lot&lt;/em&gt; of interest, and this talk fills in the gaps. Check it out!&lt;/li&gt;
-  &lt;li&gt;Jeff Beck&amp;rsquo;s talk, &lt;a href="https://spring.io/blog/2015/01/08/springone2gx-2014-replay-experiences-using-grails-in-a-microservice-architecture"&gt;&lt;em&gt;Experiences using Grails in A Microservice Architecture&lt;/em&gt;&lt;/a&gt;, is now available. It&amp;rsquo;s a worthy watch for insight into pain-points in making the move to micorservices.&lt;/li&gt;
-  &lt;li&gt;Longtime readers of this roundup will no doubt remember my former teammate &lt;a href="http://twitter.com/pledbrook"&gt;Peter Ledbrook&lt;/a&gt;. I serve as the Spring Developer Advocate, and he served as the Grails Developer Advocate, and taught me a whole world of things. I mention that all to say that if you want to learn from one of the best, you should check out his talks, including this one, &lt;a href="https://spring.io/blog/2015/01/09/springone2gx-2014-replay-how-to-get-groovy-with-java-8"&gt;&lt;em&gt;How to get Groovy with Java 8&lt;/em&gt;&lt;/a&gt;, from SpringOne2GX 2014.&lt;/li&gt;
-  &lt;li&gt;Speaking of Peter, he &lt;em&gt;also&lt;/em&gt; wrote this amazing post on &lt;a href="https://twitter.com/pledbrook/status/554613928438026240"&gt;Groovy &amp;amp; Java 8&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Check out Brian Clozel&amp;rsquo;s SpringOne2GX 2014 talk on the guts of the open-source &lt;a href="https://spring.io/blog/2015/01/13/springone2gx-2014-replay-inside-spring-io-a-production-spring-reference-application"&gt;Spring IO reference application and website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ETrade&amp;rsquo;s Durai Arasan and Monish Unni &lt;a href="https://spring.io/blog/2015/01/13/springone2gx-2014-replay-rest-services-with-rabbitmq-spring-integration-and-node-js"&gt;gave a nice talk on building REST services with Spring Integration and Node.js&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Speaking of our pal Nicolas Frankel, check out his book,&lt;a href="https://leanpub.com/integrationtest"&gt;&lt;em&gt;Integration Testing from Trenches&lt;/em&gt;, which has a large section on Spring&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
 

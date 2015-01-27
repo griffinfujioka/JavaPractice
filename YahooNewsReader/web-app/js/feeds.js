@@ -6,6 +6,8 @@ var newsFeeds = [];
 var entertainmentFeeds = []; 
 var techFeeds = []; 
 
+var currentTab; 
+
 
 var app = angular.module('feedModule', ['ngResource' ,'services']); 
 var services = angular.module('services',[]);
@@ -67,32 +69,41 @@ services.service('FeedList', function ($rootScope, FeedLoader) {
 
 })
 
-app.controller('FeedCtrl', function ($scope, $location, FeedList) {
+app.controller('FeedCtrl', function ($scope, $location, FeedList, $http) {
 	$scope.news = function() { 
 		$scope.isNewsDisplayed = true; 
 		$scope.isEntertainmentDisplayed = false; 
 		$scope.isTechDisplayed = false; 
+		$scope.currentTab = "Sports";
 	};
 	
 	$scope.entertainment = function() { 
 		$scope.isNewsDisplayed = false; 
 		$scope.isEntertainmentDisplayed = true; 
 		$scope.isTechDisplayed = false; 
+		$scope.currentTab = "Entertainment";
 	};
 	
 	$scope.tech = function() {
 		$scope.isNewsDisplayed = false; 
 		$scope.isEntertainmentDisplayed = false; 
 		$scope.isTechDisplayed = true; 
+		$scope.currentTab = "Tech";
 	}; 
+	
+	$scope.refresh = function() {
+		$scope.newsFeeds = FeedList.getNewsFeeds(); 
+		$scope.entertainmentFeeds = FeedList.getEntertainmentFeeds(); 
+		$scope.techFeeds = FeedList.getTechFeeds(); 
+	};
 	
 	$scope.newsFeeds = FeedList.getNewsFeeds(); 
 	$scope.entertainmentFeeds = FeedList.getEntertainmentFeeds(); 
 	$scope.techFeeds = FeedList.getTechFeeds(); 
 	
-	$scope.$on('FeedList', function (event, data) {
-		$scope.feeds = data;
-	});
+//	$scope.$on('FeedList', function (event, data) {
+//		$scope.feeds = data;
+//	});
 	$scope.isActive = function (viewLocation) { 
         return viewLocation === $location.path();
     };
