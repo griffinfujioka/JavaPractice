@@ -101,9 +101,6 @@ app.controller('FeedCtrl', function ($scope, $location, FeedList, $http) {
 	$scope.entertainmentFeeds = FeedList.getEntertainmentFeeds(); 
 	$scope.techFeeds = FeedList.getTechFeeds(); 
 	
-//	$scope.$on('FeedList', function (event, data) {
-//		$scope.feeds = data;
-//	});
 	$scope.isActive = function (viewLocation) { 
         return viewLocation === $location.path();
     };
