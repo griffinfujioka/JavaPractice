@@ -10104,3 +10104,9 @@ java.lang.ArrayIndexOutOfBoundsException: 33
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 4 2015-01-26 23:14:07.405
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@74545d29} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@4eb06a69}
+
+!ENTRY org.eclipse.ui 4 4 2015-01-26 23:14:12.228
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@74545d29} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@4eb06a69}
